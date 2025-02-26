@@ -1,0 +1,156 @@
+.md-text{
+  font-size: 30px;
+}
+
+/* Styling for the Link component */
+.site-btn {
+  --color: #1b096f; /* Default purple color */
+  display: inline-block;
+  padding: 0.9em 1.0em;
+  background-color: var(--color);
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 0.8s ease, color 0.8s ease;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1px solid var(--color);
+  color: #fff; /* Default text color */
+  text-decoration: none; /* Remove underline for links */
+  z-index: 1;
+}
+
+/* Circle animation */
+.site-btn::before,
+.site-btn::after {
+  content: '';
+  position: absolute;
+  width: 50px; /* Initial small size for circles */
+  height: 50px;
+  background:none; /* Circle color */
+  border-radius: 50%;
+  z-index: -1;
+  transition: width 0.8s ease, height 0.8s ease, transform 0.8s ease;
+}
+
+/* Position circles at opposite corners */
+.site-btn::before {
+  top: -10em;
+  left: -1em;
+  transform: translate(0, 0);
+}
+
+.site-btn::after {
+  bottom: -1em;
+  right: -10em;
+  transform: translate(0, 0);
+}
+
+/* Hover state */
+.site-btn:hover {
+  background: none;
+  color: var(--color); /* Text turns purple */
+}
+
+.site-btn:hover::before,
+.site-btn:hover::after {
+  width: 500px; /* Expand size for circles */
+  height: 500px;
+  transform: translate(-50%, -50%);
+}
+
+.site-primary-bg{
+  background-color: #1b096f;
+  color: #fff;
+}
+
+.site-primary-text{
+  color: #1b096f;
+}
+
+
+.site-secondary-bg{
+  background-color: #5B34B0;
+  color: white;
+}
+
+.site-primary-text{
+  color: #1b096f;
+}
+.site-section-container{
+  margin: 90px 0;
+}
+
+
+.site-header{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+
+}
+
+/* Styling for the Link component */
+.site-inverse-btn {
+  --color: #1b096f; /* Default purple color */
+  display: inline-block;
+  padding: 0.8em 1.0em;
+  background-color: transparent; /* No background initially */
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 0.8s ease, color 0.8s ease;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1px solid var(--color);
+  color: var(--color); /* Purple text initially */
+  text-decoration: none; /* Remove underline for links */
+  /* text-transform: uppercase; */
+  z-index: 1;
+}
+
+/* Circle animation */
+.site-inverse-btn::before,
+.site-inverse-btn::after {
+  content: '';
+  position: absolute;
+  width: 50px; /* Initial small size for circles */
+  height: 50px;
+  background-color: var(--color); /* Purple circles */
+  border-radius: 50%;
+  z-index: -1;
+  transition: width 0.8s ease, height 0.8s ease, transform 0.8s ease;
+}
+
+/* Position circles at opposite corners */
+.site-inverse-btn::before {
+  top: -10em;
+  left: -1em;
+  transform: translate(0, 0);
+}
+
+.site-inverse-btn::after {
+  bottom: -1em;
+  right: -10em;
+  transform: translate(0, 0);
+}
+
+/* Hover state */
+.site-inverse-btn:hover {
+  background-color: var(--color); /* Match hover background color */
+  color: #fff; /* Text turns white */
+}
+
+.site-inverse-btn:hover::before,
+.site-inverse-btn:hover::after {
+  width: 500px; /* Expand size for circles */
+  height: 500px;
+  transform: translate(-50%, -50%);
+}
+
+.site-round-border{
+  border-radius: 50%;
+  border: 1px solid #1b096f;
+  
+}
