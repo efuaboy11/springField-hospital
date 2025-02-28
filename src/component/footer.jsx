@@ -57,15 +57,15 @@ export const Footer = () =>{
                 </div>
 
                 <div className='my-2'>
-                  <Link to='/metals/' className="footer-links">Mental Health Treatment</Link>
+                  <Link to='/mental-health-treatment/' className="footer-links">Mental Health Treatment</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link to='/indexes/' className="footer-links">Find Help</Link>
+                  <Link to='/find-help/' className="footer-links">Find Help</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link to='/energy/' className="footer-links">Find a Warmline</Link>
+                  <Link to='/find-warmline/' className="footer-links">Find a Warmline</Link>
                 </div>
               </div>
             </div>

@@ -220,19 +220,19 @@ export const Navbar = () =>{
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/metals/' className='nav-sublink'>
+                        <Link to='/mental-health-treatment/' className='nav-sublink'>
                           <p>Metal Health Treatment</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/indexes/' className='nav-sublink'>
+                        <Link to='/find-help/' className='nav-sublink'>
                           <p>Find Help</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/energy/' className='nav-sublink'>
+                        <Link to='/find-warmline/' className='nav-sublink'>
                           <p >Find a Warmline</p>                
                         </Link>
                       </li>
@@ -486,8 +486,8 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/metals/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/metals/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/mental-health-treatment/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/mental-health-treatment/">
                           <div className="d-flex ms-3 py-2">
                             <p>Mental Health Treatment</p> 
                           </div>
@@ -495,16 +495,16 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/indexes/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/indexes/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/find-help/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/find-help/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Find Help</p> 
                           </div>
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/energy/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/energy/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/find-warmline/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/find-warmline/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Find Warline</p> 
                           </div>

@@ -13,6 +13,7 @@ import crisis5 from '../../img/crisis5.jpg'
 import crisis6 from '../../img/crisis6.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faRibbon } from "@fortawesome/free-solid-svg-icons"
+import HotLineDetails from "../../component/hotlineDetails"
 
 export const CrisisResources = () =>{
   const { 
@@ -326,18 +327,8 @@ export const CrisisResources = () =>{
             </section>
 
 
-            <div className="light-background2 mb-5">
-              <div className="py-5 container-lg">
-                <div className="d-flex justify-content-center text-center">
-                  <div>
-                    <i class="ri-phone-line site-primary-text lg-text"></i>
-                    <p className="site-primary-text md-text font-bold">SpringField Emergency Hotline</p>
-                    <p className="pt-1 lg-text">(+234) 807 902 2633</p>
-                    <p className="light-text-2 italic-text">You never know who might need these resources. <br />Share this page with your friends, family, and community. Let’s make mental health care accessible to all!</p>
-                  </div>
-                  
-                </div>
-              </div>
+            <div>
+              <HotLineDetails />
             </div>
           </div>
           <Footer />
