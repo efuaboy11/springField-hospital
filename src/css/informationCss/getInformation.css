@@ -1,0 +1,404 @@
+.get-information-conditions-img-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.get-information-conditions-img-container img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.get-information-conditions-img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black overlay */
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+
+
+
+.get-information-blue-line{
+  background:  #45668a;
+  margin-left: 0;
+  padding: 2px 30px;
+  margin-right: 5px;
+}
+
+.get-information-green-line{
+  background:  #9aac2d;
+  margin-left: 0;
+  padding: 2px 30px;
+  margin-right: 5px;
+}
+.get-information-orange-line{
+  background:  #ea7901;
+  margin-left: 0;
+  padding: 2px 30px;
+  margin-right: 5px;
+}
+
+.get-information-depression .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-depression .img::before{
+  content: "";
+  background: url(../../img/depression5.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-anxiety .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-anxiety .img::before{
+  content: "";
+  background: url(../../img/conditon2.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-bipolar .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-bipolar .img::before{
+  content: "";
+  background: url(../../img/condition3.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-PTSD .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-PTSD .img::before{
+  content: "";
+  background: url(../../img/condition4.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-schizophrenia .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-schizophrenia .img::before{
+  content: "";
+  background: url(../../img/condition6.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-panic-disorder .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-panic-disorder .img::before{
+  content: "";
+  background: url(../../img/condition8.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-psychosis .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-psychosis .img::before{
+  content: "";
+  background: url(../../img/condition7.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-suicide .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-suicide .img::before{
+  content: "";
+  background: url(../../img/condition9.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+.get-information-warning .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-warning .img::before{
+  content: "";
+  background: url(../../img/condition10.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-BIPOC .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-BIPOC .img::before{
+  content: "";
+  background: url(../../img/condition11.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-old .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-old .img::before{
+  content: "";
+  background: url(../../img/condition13.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-youth .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-youth .img::before{
+  content: "";
+  background: url(../../img/condition12.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-co-depedency .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-co-depedency .img::before{
+  content: "";
+  background: url(../../img/condition14.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.get-information-internet-addition .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-internet-addition .img::before{
+  content: "";
+  background: url(../../img/condition15.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-Marijuana .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-Marijuana .img::before{
+  content: "";
+  background: url(../../img/condition16.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.get-information-sexual-assault .img{
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+
+.get-information-sexual-assault .img::before{
+  content: "";
+  background: url(../../img/condition17.jpg)no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+
+.get-information-depression-dropdown-content {
+    transition: max-height 0.6s ease-out, transform 0.6s ease-out; /* Smooth slide effect */
+    max-height: 0;
+    transform: translateY(-1px); 
+  }
+
+.get-information-depression-slide-in {
+  max-height: 500px; /* Adjust according to your content */
+  transform: translateY(0);
+  transition: max-height 0.8s ease-in-out, transform 0.8s ease-in-out; /* Smooth slide-in */
+}
+
+.get-information-depression-slide-out {
+  max-height: 0;
+  transform: translateY(-1px);
+  transition: max-height 0.6s ease-out, transform 0.6s ease-out; /* Smooth slide-out */
+}
+

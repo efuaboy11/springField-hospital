@@ -74,11 +74,11 @@ export const Footer = () =>{
               <div>
                 <p className="sm-text light-text-2 font-weight-700 pb-3 uppercase">GET INFORMATION</p>
                 <div className='my-2'>
-                  <Link to='/login' className="footer-links">Mental Health Condition</Link>
+                  <Link to='/mental-health-condition/' className="footer-links">Mental Health Condition</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link to='/register' className="footer-links">Mental HEalth facts and Statistic</Link>
+                  <Link to='/register' className="footer-links">Mental Health facts and Statistic</Link>
                 </div>
 
                 <div className='my-2'>

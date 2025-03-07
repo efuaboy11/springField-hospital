@@ -245,7 +245,7 @@ export const Navbar = () =>{
                       <div className="d-flex">
                         <div className='me-5 pe-5'>
                           <li className='mb-3'>
-                            <Link to='/register' className='nav-sublink'>
+                            <Link to='/mental-health-condition/' className='nav-sublink'>
                               <p>Mental Health Condition</p>                
                             </Link>
                           </li>
@@ -534,8 +534,8 @@ export const Navbar = () =>{
 
                   <div>
                     <ul className={` client-sidebar-dropdown-bg ${sidebarAccountDropdown ? "client-sidebar-dropdown-slide-in" : "client-sidebar-dropdown-slide-out"}`}>
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/register") ?"client-sidebar-active-link": ""}`}>     
-                        <Link className='client-sidebar-link' to="/register">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/mental-health-condition/") ?"client-sidebar-active-link": ""}`}>     
+                        <Link className='client-sidebar-link' to="/mental-health-condition/">
                           <div className="d-flex ms-3 py-2">
                             <p>Mental Health Condition</p> 
                           </div>

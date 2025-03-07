@@ -82,6 +82,7 @@ ul,  li{
 
 .white-background{
   background-color: #fff;
+  color: #000;
 }
 
 .white-text{
@@ -126,7 +127,18 @@ ul,  li{
 }
 
 
+.dark-link{
+  color: #1b096f;
+  text-decoration: none;
 
+}
+
+
+.dark-link:hover{
+  color: blue;
+  text-decoration: none;
+
+}
 .light-link{
   color: #a0a0a0;
   transition: all ease 0.5s;
@@ -209,9 +221,12 @@ ul,  li{
   color: #D98324;
 }
 
+
 .border-radius-50{
   border-radius: 50%;
 }
+
+
 
 .border-radius-5px{
   border-radius: 5px;
@@ -254,11 +269,17 @@ ul,  li{
 
 .position-absolute1{
   position: absolute;
+  
+
 }
 .position-relative1{
   position: relative;
   z-index: 1;
   
+}
+
+.display-buttom{
+  bottom: 10px;
 }
 
 .width-100{
@@ -415,7 +436,6 @@ ul,  li{
 .Button:disabled{
   cursor: not-allowed;
 }
-
 
 
 .non-wrap-text {
@@ -579,6 +599,12 @@ ul,  li{
 
 .align-center{
   align-items: center;
+  height: 100%;
+
+}
+
+.align-buttom{
+  align-items: end;
   height: 100%;
 
 }
