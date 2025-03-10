@@ -257,7 +257,6 @@ export const Navbar = () =>{
                           </li>
                         </div>
 
-
                         <div>
                           <li className='mb-3'>
                             <Link to='/deposit-method/' className='nav-sublink'>
