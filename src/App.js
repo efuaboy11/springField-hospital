@@ -24,6 +24,7 @@ import { CoDependency } from "./pages/getInformation/variousMentalHealthConditio
 import { InternetAddition } from "./pages/getInformation/variousMentalHealthCondition/internetAddition";
 import { Marijuana } from "./pages/getInformation/variousMentalHealthCondition/Marijuana";
 import { SexualAssault } from "./pages/getInformation/variousMentalHealthCondition/sexualAssault";
+import { MentalHealthStats } from "./pages/getInformation/mentalHealthStats";
 
 
 
@@ -41,7 +42,9 @@ function App() {
             <Route path="/mental-health-treatment/" element={<MentalHealthTreatment />} />
             <Route path="/find-help/" element={<FindHelp />} />
             <Route path="/find-warmline/" element={<FindWarmline />} />
-            {/* Get Information */}
+            {/* ------------------------- Get Information ------------------ */}
+            
+            {/* Mental Health Conditions */}
             <Route path="/mental-health-condition/" element={<MentalHealthCondition />} />
             <Route path="/mental-health-condition/depression/" element={<Depression />} />
             <Route path="/mental-health-condition/anxiety/" element={<Anxiety />} />
@@ -60,6 +63,9 @@ function App() {
             <Route path="/mental-health-condition/internet-addition/" element={<InternetAddition />} />
             <Route path="/mental-health-condition/marijuana/" element={<Marijuana />} />
             <Route path="/mental-health-condition/sexual-assault/" element={<SexualAssault />} />
+
+            {/* Mental Health Statics */}
+            <Route path="/mental-health-condition/mental-health-statistics/" element={<MentalHealthStats />} />
           </Routes>
 
         </AuthProvider>

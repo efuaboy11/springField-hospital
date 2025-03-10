@@ -65,7 +65,7 @@ export const FindWarmline = () =>{
           <Navbar />
         </div>
 
-        <div onClick={OnbodyClick} className={`${navOverlay ? 'kl' : ""}`}>
+        <div onClick={OnbodyClick}>
           <div>
             <div className="light-background2 mb-5">
               <div className="py-5 container-lg">

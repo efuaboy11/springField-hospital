@@ -383,6 +383,42 @@
 
 
 
+.get-information-mentalhealth-stats-number{
+  font-family: "Londrina Shadow", sans-serif;
+  font-size: 70px;
+  color: #1b096f;
+  font-weight: 700px;
+}
+@keyframes flip {
+  0%, 100% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+}
+
+
+@keyframes circular-rotate {
+  0% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}
+
+.get-information-mentalhealth-stats-hearth{
+  animation: circular-rotate 5s linear infinite;
+}
+
+.get-information-mentalhealth-stats-hearth-2{
+  animation: flip 5s linear infinite;
+}
+
+
+
+
 
 .get-information-depression-dropdown-content {
     transition: max-height 0.6s ease-out, transform 0.6s ease-out; /* Smooth slide effect */
