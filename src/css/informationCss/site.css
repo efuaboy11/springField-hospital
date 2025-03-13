@@ -149,10 +149,54 @@
   transform: translate(-50%, -50%);
 }
 
+.site-btn2{
+  color: #fff;
+  text-decoration: none;
+  background-color: #1b096f;
+  border-radius: 5px;
+  transition: all ease 1s;
+  border: none;
+  padding: 0.7em 1.0em;
+  
+
+}
+
+.site-btn2:hover{
+  background-color: #4A249D;
+  color: #fff;
+
+
+}
+
+.site-submit-spinner{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 3px solid transparent;
+  border-top: 3px solid white;
+  border-radius: 50%;
+  animation: submitspin 1s linear infinite;
+}
+.site-submit-btn-visiblity {
+  visibility: hidden;
+}
+
+@keyframes submitspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .site-round-border{
   border-radius: 50%;
   border: 1px solid #1b096f;
   
+}
+.light-border{
+  border: 0.5px solid #a0a0a0;
 }
 
 @media screen and (max-width: 700px){

@@ -78,15 +78,15 @@ export const Footer = () =>{
                 </div>
 
                 <div className='my-2'>
-                  <Link to='/register' className="footer-links">Mental Health facts and Statistic</Link>
+                  <Link to='/get-information/mental-health-statistics/' className="footer-links">Mental Health facts and Statistic</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link to='/deposit-method/' className="footer-links">Copy Strategies & Self-Care</Link>
+                  <Link to='/get-information/mental-health-coping-strategies/' className="footer-links">Copy Strategies & Self-Care</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link to='/general-fees/' className="footer-links">Treatment & Therapy Options</Link>
+                  <Link to='/get-information/treatment-therapy-options/' className="footer-links">Treatment & Therapy Options</Link>
                 </div>
               </div>
             </div>
@@ -95,19 +95,19 @@ export const Footer = () =>{
               <div>
                 <p className="sm-text light-text-2 font-weight-700 pb-3 uppercase">Services</p>
                 <div className='my-2'>
-                  <Link to='/risk-disclosure/' className="footer-links">Individual Therapy</Link>
+                  <Link to='/services/individual-therapy/' className="footer-links">Individual Therapy</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link className="footer-links">Group Therapy & Support Groups </Link>
+                  <Link to='/services/group-therapy/' className="footer-links">Group Therapy & Support Groups </Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link className="footer-links">Cognitive Behavioral Therapy (CBT)</Link>
+                  <Link to='/services/cognitive-behavioural-therapy/' className="footer-links">Cognitive Behavioral Therapy (CBT)</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link className="footer-links">Medication Management</Link>
+                  <Link to='/services/medication-management/' className="footer-links">Medication Management</Link>
                 </div>
               </div>
             </div>

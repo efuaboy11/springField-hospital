@@ -152,7 +152,7 @@ export const Navbar = () =>{
 
                         <li className='px-3'>
                           <div>
-                            <Link to='/our-packages/' className={` navbar-links cursor-pointer`}>Gallery</Link>
+                            <Link to='/gallery/' className={` navbar-links cursor-pointer`}>Gallery</Link>
                           </div>
                         </li>
 
@@ -166,7 +166,7 @@ export const Navbar = () =>{
 
                         <li className='px-3'>
                           <div>
-                            <Link to='/our-packages/' className={` navbar-links cursor-pointer`}>Contact</Link>
+                            <Link to='/contact-us/' className={` navbar-links cursor-pointer`}>Contact</Link>
                           </div>
                         </li>
 
@@ -251,7 +251,7 @@ export const Navbar = () =>{
                           </li>
 
                           <li className='mb-3'>
-                            <Link to='/verification-documents/' className='nav-sublink'>
+                            <Link to='/get-information/mental-health-statistics/' className='nav-sublink'>
                               <p>Mental Health Facts and Statistics </p>                
                             </Link>
                           </li>
@@ -259,13 +259,13 @@ export const Navbar = () =>{
 
                         <div>
                           <li className='mb-3'>
-                            <Link to='/deposit-method/' className='nav-sublink'>
+                            <Link to='/get-information/mental-health-coping-strategies/' className='nav-sublink'>
                               <p>Coping Strategies & Self-Care</p>                
                             </Link>
                           </li>
 
                           <li className='mb-3'>
-                            <Link to='/general-fees/' className='nav-sublink'>
+                            <Link to='/get-information/treatment-therapy-options/' className='nav-sublink'>
                               <p>Treatment & Therapy Options</p>                
                             </Link>
                           </li>
@@ -278,31 +278,31 @@ export const Navbar = () =>{
                   {serviceDropdown &&
                     <ul className={`nav-sublink-container `}>
                       <li className='mb-3'>
-                        <Link to='/bitcoin/' className='nav-sublink'>
+                        <Link to='/services/individual-therapy/' className='nav-sublink'>
                           <p>Individual Therapy</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/crude-oil/' className='nav-sublink'>
+                        <Link to='/services/group-therapy/' className='nav-sublink'>
                           <p>Group Therapy & Support Groups</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/stock-indices/' className='nav-sublink'>
+                        <Link to='/services/cognitive-behavioural-therapy/' className='nav-sublink'>
                           <p>Cognitive Behavioral Therapy (CBT)</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/commodities/' className='nav-sublink'>
+                        <Link to='/services/medication-management/' className='nav-sublink'>
                           <p>Medication Management</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/marijuana/' className='nav-sublink'>
+                        <Link to='/services/child-counseling/' className='nav-sublink'>
                           <p>Child & Adolescent Counseling</p>                
                         </Link>
                       </li>
@@ -542,8 +542,8 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/verification-documents/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/verification-documents/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/get-information/mental-health-statistics/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/get-information/mental-health-statistics/">
                           <div className="d-flex ms-3 py-2">
                             <p>Mental Health Facts and Statistics</p> 
                           </div>
@@ -551,16 +551,16 @@ export const Navbar = () =>{
                       </li>
 
                       <p className="light-text ps-3 pt-3">Fundings</p>
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/deposit-method/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/deposit-method/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/get-information/mental-health-coping-strategies/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/get-information/mental-health-coping-strategies/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Copying Strategies & Self-Care</p> 
                           </div>
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/general-fees/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/general-fees/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/get-information/treatment-therapy-options/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/get-information/treatment-therapy-options/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Treatment & Therapy Options</p> 
                           </div>
@@ -590,8 +590,8 @@ export const Navbar = () =>{
                   <div>
                     <ul className={` client-sidebar-dropdown-bg ${sidebarMarketDropdown ? "client-sidebar-dropdown-slide-in" : "client-sidebar-dropdown-slide-out"}`}>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/bitcoin/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/bitcoin/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/services/individual-therapy/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/services/individual-therapy/">
                           <div className="d-flex ms-3 py-2">
                             <p>Individual Therapy</p> 
                           </div>
@@ -599,19 +599,11 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/crude-oil/") ?"client-sidebar-active-link": ""}`}>
-                        <Link  className='client-sidebar-link' to="/crude-oil/">
-                          <div className="d-flex ms-3 py-2">
-                            <p>Crude Oil</p> 
-                          </div>
-                        </Link>
-                      </li>
 
 
 
-
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/stock-indices/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/stock-indices/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/services/group-therapy/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/services/group-therapy/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Group Therapy & Support Groups</p> 
                           </div>
@@ -619,24 +611,24 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/commodities/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/commodities/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/services/cognitive-behavioural-therapy/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/services/cognitive-behavioural-therapy/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Cognitive Behavioural Therapy (CBT)</p> 
                           </div>
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/marijuana/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/marijuana/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/services/medication-management/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/services/medication-management/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Medication Management</p> 
                           </div>
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/marijuana/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/marijuana/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/services/child-counseling/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/services/child-counseling/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Child & Adolescent Counseling</p> 
                           </div>
@@ -654,8 +646,8 @@ export const Navbar = () =>{
               </li>
 
 
-              <li className={`pb-3 pt-1  ${isActiveDashLink("/our-packages/") ?"client-sidebar-active-link": ""}`}>
-                <Link  className='client-sidebar-link' to="/our-packages/">
+              <li className={`pb-3 pt-1  ${isActiveDashLink("/gallery/") ?"client-sidebar-active-link": ""}`}>
+                <Link  className='client-sidebar-link' to="/gallery/">
                   <div className="d-flex ms-3">
                     <p className=' font-size-20px'>Gallery</p> 
                   </div>
@@ -720,8 +712,8 @@ export const Navbar = () =>{
       
               </li>
 
-              <li className={`pb-3 pt-1  ${isActiveDashLink("/our-packages/") ?"client-sidebar-active-link": ""}`}>
-                <Link  className='client-sidebar-link' to="/our-packages/">
+              <li className={`pb-3 pt-1  ${isActiveDashLink("/contact-us/") ?"client-sidebar-active-link": ""}`}>
+                <Link  className='client-sidebar-link' to="/contact-us/">
                   <div className="d-flex ms-3">
                     <p className=' font-size-20px'>Contact</p> 
                   </div>

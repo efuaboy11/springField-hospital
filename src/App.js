@@ -25,6 +25,16 @@ import { InternetAddition } from "./pages/getInformation/variousMentalHealthCond
 import { Marijuana } from "./pages/getInformation/variousMentalHealthCondition/Marijuana";
 import { SexualAssault } from "./pages/getInformation/variousMentalHealthCondition/sexualAssault";
 import { MentalHealthStats } from "./pages/getInformation/mentalHealthStats";
+import { CopyStrategies } from "./pages/getInformation/copyStrategies";
+import { Treatment } from "./pages/getInformation/treatment";
+import { IndividualTherapy } from "./pages/services/individualTherapy";
+import { GroupTherapy } from "./pages/services/groupTherapy";
+import { CognitiveTherapy } from "./pages/services/cognitiveBehaviouralTherapy";
+import { MedicationManagement } from "./pages/services/medicationManagement";
+import { ChildCounseling } from "./pages/services/childCounseling";
+import { Gallery } from "./pages/gallery/gallery";
+import { Contact } from "./pages/contact/contact";
+import { AppointmentScheduling } from "./pages/patient/appointmentScheduling";
 
 
 
@@ -64,8 +74,26 @@ function App() {
             <Route path="/mental-health-condition/marijuana/" element={<Marijuana />} />
             <Route path="/mental-health-condition/sexual-assault/" element={<SexualAssault />} />
 
-            {/* Mental Health Statics */}
-            <Route path="/mental-health-condition/mental-health-statistics/" element={<MentalHealthStats />} />
+            <Route path="/get-information/mental-health-statistics/" element={<MentalHealthStats />} />
+            <Route path="/get-information/mental-health-coping-strategies/" element={<CopyStrategies />} />
+            <Route path="/get-information/treatment-therapy-options/" element={<Treatment />} />
+
+
+            {/*  Services */}
+            <Route path="/services/individual-therapy/" element={<IndividualTherapy />} />
+            <Route path="/services/group-therapy/" element={<GroupTherapy />} />
+            <Route path="/services/cognitive-behavioural-therapy/" element={<CognitiveTherapy />} />
+            <Route path="/services/medication-management/" element={<MedicationManagement />} />
+            <Route path="/services/child-counseling/" element={<ChildCounseling />} />
+
+            {/* Gallery */}
+            <Route path="/gallery/" element={<Gallery />} />
+
+            {/* Gallery */}
+            <Route path="/contact-us/" element={<Contact />} />
+
+            {/* Patients & Visitors */}
+            <Route path="/appointment-scheduling/" element={<AppointmentScheduling />} />
           </Routes>
 
         </AuthProvider>
