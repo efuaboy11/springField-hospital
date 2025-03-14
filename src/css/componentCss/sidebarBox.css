@@ -1,0 +1,29 @@
+.sidebar-box-link{
+    display: block;
+    color: #373f41;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-left: 7px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    -webkit-transition: .3s;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.sidebar-box-link:hover{
+    border-left: 7px solid #1b096f;
+    border-bottom: 1px solid #1b096f;
+    color: #1b096f;
+}
+
+
+.sidebar-box-active-link{
+    border-left: 7px solid #1b096f;
+    border-bottom: 1px solid #1b096f;
+    color: #1b096f;
+}
+
+.sidebar-box{
+    min-width: 25%;
+}

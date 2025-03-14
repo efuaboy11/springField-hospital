@@ -202,11 +202,11 @@ export const IndividualTherapy = () =>{
        
 
         </div>
-
+        <Footer />
       </div>
 
 
-      <Footer />
+      
     </div>
       
   )

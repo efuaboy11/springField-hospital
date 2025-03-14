@@ -205,10 +205,12 @@ export const Contact = () =>{
 
         </div>
 
+        
+        <Footer />
+
+
       </div>
 
-
-      <Footer />
     </div>
 
 

@@ -116,21 +116,21 @@ export const Footer = () =>{
               <div>
                 <p className="sm-text light-text-2 font-weight-700 pb-3 uppercase">PATIENTS & VISITORS</p>
                 <div className='my-2'>
-                  <Link  to='https://www.coinbase.com/' target="_blank" className="footer-links">Appointment & Scheduling</Link>
+                  <Link  to='/patients-visitor/appointment-scheduling/' target="_blank" className="footer-links">Appointment & Scheduling</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link to='https://www.gemini.com/' target="_blank" className="footer-links">What to Expect</Link>
+                  <Link to='/patients-visitor/what-to-expect/' target="_blank" className="footer-links">What to Expect</Link>
                 </div>
 
                 <div className='my-2'>
-                  <Link to='https://blockfi.com/'  target="_blank" className="footer-links">Visitor Guidelines</Link>
+                  <Link to='/patients-visitor/visitors-guideline/'  target="_blank" className="footer-links">Visitor Guidelines</Link>
                 </div>
 
 
 
                 <div className='my-2'>
-                  <Link to='https://www.etoro.com/' target="_blank" className="footer-links">Patient Resources & Support </Link>
+                  <Link to='/patients-visitor/patient-resources-support/' target="_blank" className="footer-links">Patient Resources & Support </Link>
                 </div>
               </div>
             </div>

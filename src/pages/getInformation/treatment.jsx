@@ -362,11 +362,12 @@ export const Treatment = () =>{
        
 
         </div>
+        <Footer />
 
       </div>
 
 
-      <Footer />
+     
     </div>
       
   )

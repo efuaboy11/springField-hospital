@@ -312,25 +312,25 @@ export const Navbar = () =>{
                   {patientsDropdown &&
                     <ul className={`nav-sublink-container `}>
                       <li className='mb-3'>
-                        <Link to='/meta5-desktop-platform/' className='nav-sublink'>
+                        <Link to='/patients-visitor/appointment-scheduling/' className='nav-sublink'>
                           <p>Appointment & Scheduling</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/meta5-mobile-platform/' className='nav-sublink'>
+                        <Link to='/patients-visitor/what-to-expect/' className='nav-sublink'>
                           <p>What to Expect</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/meta5-web-platform/' className='nav-sublink'>
+                        <Link to='/patients-visitor/visitors-guideline/' className='nav-sublink'>
                           <p>Visitor Guidelines</p>                
                         </Link>
                       </li>
 
                       <li className='mb-3'>
-                        <Link to='/meta5-web-platform/' className='nav-sublink'>
+                        <Link to='/patients-visitor/patient-resources-support/' className='nav-sublink'>
                           <p>Patient Resources & Support </p>                
                         </Link>
                       </li>
@@ -669,8 +669,8 @@ export const Navbar = () =>{
 
                   <div>
                     <ul className={` client-sidebar-dropdown-bg ${sidebarTradeDropdown ? "client-sidebar-dropdown-slide-in" : "client-sidebar-dropdown-slide-out"}`}>
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/meta5-desktop-platform/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/meta5-desktop-platform/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/patients-visitor/appointment-scheduling/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/patients-visitor/appointment-scheduling/">
                           <div className="d-flex ms-3 py-2">
                             <p> Appointment & Scheduling</p> 
                           </div>
@@ -678,8 +678,8 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/meta5-mobile-platform/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/meta5-mobile-platform/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/patients-visitor/visitors-guideline/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/patients-visitor/visitors-guideline/">
                           <div className="d-flex ms-3 py-2">
                             <p>What to Expect </p> 
                           </div>
@@ -696,8 +696,8 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/meta5-web-platform/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/meta5-web-platform/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/patients-visitor/patient-resources-support/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/patients-visitor/patient-resources-support/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Patients Resources & Supports</p> 
                           </div>

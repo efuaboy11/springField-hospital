@@ -590,10 +590,12 @@ export const CopyStrategies = () =>{
 
         </div>
 
+        <Footer />
+
       </div>
 
 
-      <Footer />
+      
     </div>
       
   )

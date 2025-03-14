@@ -253,11 +253,11 @@ export const MedicationManagement = () =>{
        
 
         </div>
-
+        <Footer />
       </div>
 
 
-      <Footer />
+      
     </div>
       
   )

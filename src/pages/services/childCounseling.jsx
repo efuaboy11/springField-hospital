@@ -242,11 +242,11 @@ export const ChildCounseling = () =>{
        
 
         </div>
-
+        <Footer />
       </div>
 
 
-      <Footer />
+      
     </div>
       
   )

@@ -339,11 +339,12 @@ export const GroupTherapy = () =>{
        
 
         </div>
+        <Footer />
 
       </div>
 
 
-      <Footer />
+      
     </div>
       
   )

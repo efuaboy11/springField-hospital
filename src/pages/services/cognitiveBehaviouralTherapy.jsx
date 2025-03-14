@@ -238,11 +238,11 @@ export const CognitiveTherapy = () =>{
        
 
         </div>
-
+        <Footer />
       </div>
 
 
-      <Footer />
+      
     </div>
       
   )

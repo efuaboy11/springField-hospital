@@ -38,11 +38,9 @@ export const MentalHealthStats = () =>{
 
 
         </div>
-
+        <Footer />
       </div>
-
-
-      <Footer />
+      
     </div>
 
 

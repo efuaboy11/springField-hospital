@@ -35,6 +35,9 @@ import { ChildCounseling } from "./pages/services/childCounseling";
 import { Gallery } from "./pages/gallery/gallery";
 import { Contact } from "./pages/contact/contact";
 import { AppointmentScheduling } from "./pages/patient/appointmentScheduling";
+import { WhatToExpect } from "./pages/patient/whatToExpect";
+import { VisitorGuidelines } from "./pages/patient/VisitorGuidelines";
+import { PatientsResources } from "./pages/patient/patientsResources";
 
 
 
@@ -93,7 +96,10 @@ function App() {
             <Route path="/contact-us/" element={<Contact />} />
 
             {/* Patients & Visitors */}
-            <Route path="/appointment-scheduling/" element={<AppointmentScheduling />} />
+            <Route path="/patients-visitor/appointment-scheduling/" element={<AppointmentScheduling />} />
+            <Route path="/patients-visitor/what-to-expect/" element={<WhatToExpect />} />
+            <Route path="/patients-visitor/visitors-guideline/" element={<VisitorGuidelines />} />
+            <Route path="/patients-visitor/patient-resources-support/" element={<PatientsResources />} />
           </Routes>
 
         </AuthProvider>

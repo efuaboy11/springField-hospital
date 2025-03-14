@@ -468,7 +468,7 @@ export const Home = () =>{
             <div className="container-lg">
               <div className="text-center">
                 <p className="site-primary-text font-bold">OUR REVIEWS</p>
-                <p className="site-header font-bold">More Than 20,000+ Happy Customers Trust <br /> Our Services</p>
+                <p className="site-header font-bold">We Have Happy Customers That Trust <br /> Our Services</p>
               </div>
 
               <div className="row gx-3 gy-4 pt-5">

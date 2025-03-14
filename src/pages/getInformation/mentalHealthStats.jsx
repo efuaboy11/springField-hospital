@@ -552,11 +552,11 @@ export const MentalHealthStats = () =>{
           </div>
 
         </div>
-
+        <Footer />
       </div>
 
 
-      <Footer />
+      
     </div>
       
   )

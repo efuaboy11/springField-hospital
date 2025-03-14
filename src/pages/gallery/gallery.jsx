@@ -118,10 +118,12 @@ export const Gallery = () =>{
 
         </div>
 
+        
+        <Footer />
+
       </div>
 
 
-      <Footer />
     </div>
 
 

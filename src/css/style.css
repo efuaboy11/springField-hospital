@@ -248,6 +248,10 @@ ul,  li{
 .border-bottom2{
   border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
+
+.border-bottom3{
+  border-bottom: 1px solid #a0a0a0;
+}
 .border-right-dotted{
   border-right: 1px dotted #404040;
 }
@@ -293,7 +297,9 @@ ul,  li{
 .width-70{
   width: 70%;
 }
-
+.width-33{
+  width: 33%;
+}
 .uppercase{
   text-transform: uppercase;
 }
