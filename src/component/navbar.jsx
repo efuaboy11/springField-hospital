@@ -687,8 +687,8 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/meta5-web-platform/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/meta5-web-platform/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/patients-visitor/visitors-guideline/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/patients-visitor/visitors-guideline/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Visitor Guidelines</p> 
                           </div>
