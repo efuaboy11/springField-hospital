@@ -189,7 +189,7 @@ export const Contact = () =>{
                             <span class={`${loader ? 'site-submit-spinner': ''}`}></span>
                             <span class={`${loader ? 'site-submit-btn-visiblity': ''}`}>Send</span>
                           </button> 
-                         
+                        
                           
                         </div>
 

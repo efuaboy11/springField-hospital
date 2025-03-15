@@ -186,8 +186,7 @@ export const Navbar = () =>{
                 </div>
 
                 <div className="col-3">
-                  <Link className="site-btn uppercase">Book Appointment</Link>
-
+                  <Link  to='/book-appointment/' className="site-btn uppercase">Book Appointment</Link>
                 </div>
               </div>
             </div>
@@ -863,26 +862,9 @@ export const Navbar = () =>{
               
             </ul>
 
-            {/* {showDashboardBtn ? (
-                  <div className='d-flex justify-content-center pt-4'>
-                     <Link to={`${dashLink}`} className='client-sidebar-btn  font-bold'>Dashbaord</Link>
-                  </div>
-                ) : (
-                  <div className="d-flex justify-content-center pt-4">
-                    <div>
-                      <div className='d-flex'>
-                        <div className='me-3'>
-                          <Link to='/register' className='client-sidebar-btn  font-bold'>Create Account</Link>
-                        </div>
-      
-                        <div>
-                          <Link to='/login' className='client-sidebar-btn  font-bold'>Sign In</Link>
-                        </div>
-                        
-                      </div>
-                    </div>
-                </div>
-                )} */}
+            <div className="d-flex justify-content-center mt-5">
+              <Link  to='/book-appointment/' className="site-btn uppercase">Book Appointment</Link>
+            </div>
           </div>
         </div>
       </div>

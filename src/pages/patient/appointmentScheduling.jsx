@@ -3,7 +3,7 @@ import AuthContext from "../../context/AuthContext"
 import { Header, Navbar } from "../../component/navbar"
 import { Link } from "react-router-dom"
 import { Footer } from "../../component/footer"
-import '../../css/componentCss/patient.css'
+import '../../css/informationCss/patient.css'
 import appointment1 from "../../img/appointment1.png"
 import appointment2 from "../../img/appointment2.png"
 import appointment3 from "../../img/appointment3.png"

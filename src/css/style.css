@@ -258,7 +258,14 @@ ul,  li{
 .border1{
   border: 1px solid #404040;
 }
+.border2{
+  border: 1px solid #a0a0a0;
+}
 
+.border-y{
+  border-top: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+}
 
 .border-right1{
   border-right: 1px solid #404040;
@@ -299,6 +306,10 @@ ul,  li{
 }
 .width-33{
   width: 33%;
+}
+.width-30px{
+  width: 50px;
+  height: 46px;
 }
 .uppercase{
   text-transform: uppercase;

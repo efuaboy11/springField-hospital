@@ -38,6 +38,7 @@ import { AppointmentScheduling } from "./pages/patient/appointmentScheduling";
 import { WhatToExpect } from "./pages/patient/whatToExpect";
 import { VisitorGuidelines } from "./pages/patient/VisitorGuidelines";
 import { PatientsResources } from "./pages/patient/patientsResources";
+import { BookAppointment } from "./pages/bookAppointment/bookAppointment";
 
 
 
@@ -100,6 +101,7 @@ function App() {
             <Route path="/patients-visitor/what-to-expect/" element={<WhatToExpect />} />
             <Route path="/patients-visitor/visitors-guideline/" element={<VisitorGuidelines />} />
             <Route path="/patients-visitor/patient-resources-support/" element={<PatientsResources />} />
+            <Route path="/book-appointment/" element={<BookAppointment />} />
           </Routes>
 
         </AuthProvider>
