@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Suicide = () =>{
   const { 
@@ -120,6 +121,14 @@ export const Suicide = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Suicide Prevention | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Access vital information on suicide prevention, warning signs, and supportive resources at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Suicide Prevention, Mental Health Crisis, Warning Signs, Support Resources, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Suicide Prevention | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Learn about suicide prevention, recognize the warning signs, and find help and support for those in crisis." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

@@ -4,6 +4,7 @@ import { Header, Navbar } from "../../component/navbar"
 import { Link } from "react-router-dom"
 import { Footer } from "../../component/footer"
 import "../../css/componentCss/sidebarBox.css"
+import { Helmet } from "react-helmet-async"
 
 export const PatientsResources = () =>{
   const { 
@@ -37,6 +38,14 @@ export const PatientsResources = () =>{
   }, []);
   return(
     <div>
+      <Helmet>
+        <title>Patient Resources & Support | Springfield Mental Health and Pyschosocal Services</title>
+        <meta name="description" content="Access valuable mental health resources, support groups, and self-help tools at Springfield Mental Health and Pyschosocal Services." />
+        <meta name="keywords" content="Mental Health Resources, Patient Support, Therapy Tools, Springfield Counseling, Self-Help, Support Groups, Mental Wellness" />
+        <meta property="og:title" content="Patient Resources & Support | Springfield Mental Health and Pyschosocal Services" />
+        <meta property="og:description" content="Explore a wide range of resources and support options for your mental health and well-being." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const MoodDisorder = () =>{
   const { 
@@ -120,6 +121,14 @@ export const MoodDisorder = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Mood Disorders | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about mood disorders, their symptoms, causes, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Mood Disorders, Bipolar Disorder, Depression, Mental Health, Emotional Health, Therapy for Mood Disorders, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Mood Disorders | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand mood disorders, their impact on mental health, and explore effective management and treatment options." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

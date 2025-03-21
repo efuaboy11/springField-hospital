@@ -17,6 +17,7 @@ import strategies5 from "../../img/strategies5.png"
 import strategies6 from "../../img/strategies6.png"
 import strategies7 from "../../img/strategies7.png"
 import strategies8 from "../../img/strategies8.png"
+import { Helmet } from "react-helmet-async"
 
 
 export const CopyStrategies = () =>{
@@ -27,6 +28,14 @@ export const CopyStrategies = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Coping Strategies & Self-Care | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Discover effective coping strategies and self-care techniques to improve mental well-being at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Coping Strategies, Self-Care, Mental Wellness, Stress Management, Emotional Health, Springfield Psychosocial Services, Healthy Habits" />
+        <meta property="og:title" content="Coping Strategies & Self-Care | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Learn practical ways to manage stress, build resilience, and enhance your mental health through self-care." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

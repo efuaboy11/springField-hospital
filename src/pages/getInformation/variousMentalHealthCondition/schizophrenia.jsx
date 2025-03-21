@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Schizophrenia = () =>{
   const { 
@@ -120,6 +121,14 @@ export const Schizophrenia = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Schizophrenia | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about schizophrenia, its symptoms, causes, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Schizophrenia, Psychosis, Hallucinations, Delusions, Mental Health, Schizophrenia Treatment, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Schizophrenia | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand schizophrenia, its impact on mental health, and explore effective management and treatment options." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

@@ -760,5 +760,8 @@ table{
   .xl-text{
     font-size: 30px;
   }
+  .md-text{
+    font-size: 20px;
+  }
 
 }

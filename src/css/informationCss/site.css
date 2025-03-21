@@ -199,6 +199,24 @@
   border: 0.5px solid #a0a0a0;
 }
 
+.site-good-mark{
+  display: flex;
+  align-items: center;
+  min-width: 20px;
+  max-height: 20px;
+  justify-content: center;
+  
+}
+
+.site-number{
+  display: flex;
+  align-items: center;
+  min-width: 25px;
+  height: 25px;
+  justify-content: center;
+  
+}
+
 @media screen and (max-width: 700px){
   .site-header{
     font-size: 25px;

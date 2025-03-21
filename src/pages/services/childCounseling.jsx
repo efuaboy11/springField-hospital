@@ -10,6 +10,7 @@ import therapy from '../../img/child-mom.jpg'
 import heartIcon from '../../img/heart-icon.jpg'
 import HotLineDetails from "../../component/hotlineDetails"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 
 export const ChildCounseling = () =>{
@@ -20,6 +21,15 @@ export const ChildCounseling = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Child & Adolescent Counseling | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Support your child's mental health with specialized counseling services at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Services, Child Counseling, Adolescent Therapy, Teen Mental Health, Family Therapy, Springfield Psychosocial Services, Behavioral Support" />
+        <meta property="og:title" content="Child & Adolescent Counseling | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Providing compassionate therapy and mental health support for children, teens, and families." />
+      </Helmet>
+
+
       <div>
         <Header />
       </div>

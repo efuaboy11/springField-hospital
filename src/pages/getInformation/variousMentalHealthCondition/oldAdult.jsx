@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const OldAdult = () =>{
   const { 
@@ -120,6 +121,14 @@ export const OldAdult = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Older Adults' Mental Health | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Explore mental health challenges, support, and wellness strategies for older adults at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Older Adults Mental Health, Senior Mental Health, Aging and Mental Wellness, Depression in Seniors, Cognitive Health, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Older Adults' Mental Health | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Learn about mental health issues affecting older adults and discover resources for support and care." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

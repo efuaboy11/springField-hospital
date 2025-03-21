@@ -9,6 +9,7 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from "react-helmet-async"
 
 
 export const Contact = () =>{
@@ -96,6 +97,14 @@ export const Contact = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Contact Us | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Get in touch with Springfield Mental Health and Psychosocial Services for inquiries, appointments, and support." />
+        <meta name="keywords" content="Contact, Mental Health Support, Springfield Psychosocial Services, Get in Touch, Help Center" />
+        <meta property="og:title" content="Contact Us | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Reach out to Springfield Mental Health and Psychosocial Services for assistance, questions, and mental health support." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

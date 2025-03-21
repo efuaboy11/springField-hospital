@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const PTSD = () =>{
   const { 
@@ -120,6 +121,14 @@ export const PTSD = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>PTSD (Post-Traumatic Stress Disorder) | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about PTSD, its symptoms, causes, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="PTSD, Post-Traumatic Stress Disorder, Trauma, Mental Health, PTSD Treatment, Therapy for PTSD, Springfield Psychosocial Services" />
+        <meta property="og:title" content="PTSD (Post-Traumatic Stress Disorder) | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand PTSD, its impact on mental health, and explore effective management and treatment options." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

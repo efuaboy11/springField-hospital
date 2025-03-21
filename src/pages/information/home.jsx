@@ -38,6 +38,7 @@ import customer2 from '../../img/customer-2.jpg'
 import customer3 from '../../img/customer3.jpg'
 import { Footer } from "../../component/footer"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 
 export const Home = () =>{
@@ -78,6 +79,14 @@ export const Home = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Home | Springfield Mental Health and Pyschosocal Services</title>
+        <meta name="description" content="Welcome to Springfield Mental Health and Pyschosocal Services. Explore our mental health services, expert counseling, and commitment to your well-being." />
+        <meta name="keywords" content="Mental Health, Therapy, Counseling, Springfield, Mental Wellness, Psychology, Support, Well-being" />
+        <meta property="og:title" content="Springfield Mental Health and Pyschosocal Services - Your Path to Wellness" />
+        <meta property="og:description" content="Providing compassionate mental health care and support to help you thrive." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

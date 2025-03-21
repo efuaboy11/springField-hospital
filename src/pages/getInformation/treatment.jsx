@@ -9,6 +9,7 @@ import nigeriaMap from '../../img/nigeriaMap.jpg'
 import therapy from '../../img/therapy.jpg'
 import heartIcon from '../../img/heart-icon.jpg'
 import HotLineDetails from "../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 
 export const Treatment = () =>{
@@ -19,6 +20,14 @@ export const Treatment = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Treatment & Therapy Options | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Explore various treatment and therapy options available at Springfield Mental Health and Psychosocial Services to support mental well-being." />
+        <meta name="keywords" content="Mental Health Treatment, Therapy Options, Counseling Services, Psychiatric Care, Springfield Psychosocial Services, Mental Wellness" />
+        <meta property="og:title" content="Treatment & Therapy Options | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Discover effective therapy and treatment approaches tailored to individual mental health needs." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const CoDependency = () =>{
   const { 
@@ -120,6 +121,14 @@ export const CoDependency = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Co-Dependency | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about co-dependency, its signs, effects, and ways to establish healthier relationships at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Co-Dependency, Codependent Relationships, Mental Health, Emotional Dependency, Relationship Issues, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Co-Dependency | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand the impact of co-dependency on relationships and explore strategies for personal growth and healing." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

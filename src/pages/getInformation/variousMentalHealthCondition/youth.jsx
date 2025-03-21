@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Youth = () =>{
   const { 
@@ -120,6 +121,14 @@ export const Youth = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Youth Mental Health | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Explore mental health challenges affecting youth, early warning signs, and available support at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Youth Mental Health, Teen Mental Health, Adolescent Wellness, Depression in Teens, Mental Health Support, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Youth Mental Health | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand youth mental health issues, recognize warning signs, and explore resources for support and treatment." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

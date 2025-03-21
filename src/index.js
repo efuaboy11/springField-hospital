@@ -4,10 +4,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "remixicon/fonts/remixicon.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import $ from "jquery";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel";
+import { HelmetProvider } from 'react-helmet-async';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>
 );
 

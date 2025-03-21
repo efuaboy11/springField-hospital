@@ -10,6 +10,7 @@ import therapy from '../../img/people.jpg'
 import heartIcon from '../../img/heart-icon.jpg'
 import HotLineDetails from "../../component/hotlineDetails"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 
 export const GroupTherapy = () =>{
@@ -20,6 +21,14 @@ export const GroupTherapy = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Group Therapy & Support Groups | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Join group therapy and support groups at Springfield Mental Health and Psychosocial Services to connect with others on a similar journey to healing." />
+        <meta name="keywords" content="Services, Group Therapy, Support Groups, Mental Health Support, Peer Counseling, Springfield Psychosocial Services, Emotional Well-being, Community Healing" />
+        <meta property="og:title" content="Group Therapy & Support Groups | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Find strength in shared experiences through our group therapy sessions and mental health support groups." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

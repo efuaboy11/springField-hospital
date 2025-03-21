@@ -14,6 +14,7 @@ import crisis6 from '../../img/crisis6.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const CrisisResources = () =>{
   const { 
@@ -24,6 +25,14 @@ export const CrisisResources = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Crisis Resources | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Find immediate support and crisis resources for mental health emergencies at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Crisis Resources, Mental Health Emergency, Suicide Prevention, Helplines, Mental Health Support, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Crisis Resources | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Access urgent mental health crisis resources, helplines, and support services for individuals in need." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

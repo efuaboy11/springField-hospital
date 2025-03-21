@@ -8,6 +8,7 @@ import '../../css/informationCss/bookAppointment.css'
 import emailjs from '@emailjs/browser'
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from "react-helmet-async"
 
 export const BookAppointment = () =>{
   const { 
@@ -119,6 +120,14 @@ export const BookAppointment = () =>{
   };
   return(
     <div>
+      <Helmet>
+        <title>Book an Appointment | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Schedule an appointment with Springfield Mental Health and Psychosocial Services for professional mental health support and counseling." />
+        <meta name="keywords" content="Book Appointment, Mental Health Services, Therapy Appointment, Counseling, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Book an Appointment | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Easily book an appointment with our mental health professionals for therapy and counseling services." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

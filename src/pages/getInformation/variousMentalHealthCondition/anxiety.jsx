@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Anxiety = () =>{
   const { 
@@ -106,6 +107,14 @@ export const Anxiety = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Anxiety | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about anxiety, its symptoms, causes, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Anxiety, Anxiety Disorder, Anxiety Symptoms, Anxiety Treatment, Mental Health, Springfield Psychosocial Services, Stress Management" />
+        <meta property="og:title" content="Anxiety | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand anxiety disorders, their impact on mental health, and how to manage them effectively." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

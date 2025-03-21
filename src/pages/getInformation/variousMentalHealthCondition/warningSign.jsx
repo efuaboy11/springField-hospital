@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const WarningSign = () =>{
   const { 
@@ -120,6 +121,14 @@ export const WarningSign = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Warning Signs of Mental Health Conditions | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Recognize the early warning signs of mental health conditions and seek support at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Mental Health Warning Signs, Early Symptoms, Mental Illness, Behavioral Changes, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Warning Signs of Mental Health Conditions | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Learn about common warning signs of mental health conditions and how to take early action for support and treatment." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

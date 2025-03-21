@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const PanicDisorder = () =>{
   const { 
@@ -120,6 +121,14 @@ export const PanicDisorder = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Panic Disorder | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about Panic Disorder, its symptoms, causes, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Panic Disorder, Panic Attacks, Anxiety, Mental Health, Therapy for Panic Disorder, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Panic Disorder | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand Panic Disorder, its impact on mental health, and effective ways to manage and treat it." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

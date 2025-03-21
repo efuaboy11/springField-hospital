@@ -10,6 +10,7 @@ import therapy from '../../img/therapy2.jpg'
 import heartIcon from '../../img/heart-icon.jpg'
 import HotLineDetails from "../../component/hotlineDetails"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 
 export const IndividualTherapy = () =>{
@@ -20,6 +21,14 @@ export const IndividualTherapy = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Individual Therapy | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Experience personalized one-on-one therapy at Springfield Mental Health and Psychosocial Services to support your mental well-being." />
+        <meta name="keywords" content="Services Individual Therapy, One-on-One Counseling, Mental Health Support, Personal Therapy, Springfield Psychosocial Services, Emotional Well-being" />
+        <meta property="og:title" content="Individual Therapy | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Work closely with a licensed therapist to explore personal challenges and improve your mental health." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

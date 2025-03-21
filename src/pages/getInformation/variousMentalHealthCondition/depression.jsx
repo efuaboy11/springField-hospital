@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Depression = () =>{
   const { 
@@ -88,6 +89,14 @@ export const Depression = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Depression | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about depression, its symptoms, causes, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Depression, Major Depressive Disorder, Depression Symptoms, Mental Health, Therapy for Depression, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Depression | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand depression, its impact on mental health, and effective ways to manage and treat it." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

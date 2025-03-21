@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Bipolar = () =>{
   const { 
@@ -120,6 +121,14 @@ export const Bipolar = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Bipolar Disorder | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about Bipolar Disorder, its symptoms, types, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Bipolar Disorder, Mood Swings, Manic Depression, Bipolar Symptoms, Mental Health Treatment, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Bipolar Disorder | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand Bipolar Disorder, its impact on mental health, and effective ways to manage it." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

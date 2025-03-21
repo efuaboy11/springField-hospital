@@ -13,6 +13,7 @@ import WhyChooseUs from "../../component/whyChooseUs"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 export const AppointmentScheduling = () =>{
   const { 
     OnbodyClick, 
@@ -79,6 +80,14 @@ export const AppointmentScheduling = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Appointment & Scheduling | Springfield Mental Health and Pyschosocal Services</title>
+        <meta name="description" content="Schedule an appointment with Springfield Mental Health and Pyschosocal Services. Find the right therapist and book a session for your mental wellness journey." />
+        <meta name="keywords" content="Mental Health Appointment, Therapy Scheduling, Counseling Booking, Springfield Mental Health, Therapist Near Me, Mental Wellness Support" />
+        <meta property="og:title" content="Book Your Appointment | Springfield Mental Health and Pyschosocal Services" />
+        <meta property="og:description" content="Easily schedule a therapy or counseling session with our mental health professionals." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

@@ -10,6 +10,7 @@ import gallery4 from '../../img/gallery4.jpg'
 import gallery5 from '../../img/gallery5.jpg'
 import gallery6 from '../../img/gallery6.jpg'
 import gallery7 from '../../img/gallery7.jpg'
+import { Helmet } from "react-helmet-async"
 
 export const Gallery = () =>{
   const { 
@@ -20,6 +21,14 @@ export const Gallery = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Gallery | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Explore our gallery showcasing Springfield Mental Health and Psychosocial Services, our facilities, events, and community engagement." />
+        <meta name="keywords" content="Gallery, Mental Health Facility, Community Events, Springfield Psychosocial Services, Photos" />
+        <meta property="og:title" content="Gallery | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="View images of our mental health facility, events, and the supportive environment at Springfield Mental Health and Psychosocial Services." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

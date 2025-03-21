@@ -20,6 +20,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../component/hotlineDetails"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 export const MentalHealthTreatment = () =>{
   const { 
@@ -57,6 +58,14 @@ export const MentalHealthTreatment = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Mental Health Treatment | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Explore various mental health treatment options, including therapy, medication, and holistic approaches at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Mental Health Treatment, Therapy, Counseling, Medication Management, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Mental Health Treatment | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Learn about available mental health treatment methods and find the right care for your needs." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

@@ -4,6 +4,7 @@ import { Header, Navbar } from "../../component/navbar"
 import { Link } from "react-router-dom"
 import { Footer } from "../../component/footer"
 import HotLineDetails from "../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 
 export const WhatToExpect = () =>{
@@ -15,6 +16,14 @@ export const WhatToExpect = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>What to Expect | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn what to expect during your visit to Springfield Mental Health and Psychosocial Services, from your first appointment to ongoing care." />
+        <meta name="keywords" content="Mental Health Care, Therapy Process, Counseling Expectations, Springfield Psychosocial Services, First Appointment, Patient Journey" />
+        <meta property="og:title" content="What to Expect | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Get an overview of the therapy and support process at Springfield Mental Health and Psychosocial Services." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

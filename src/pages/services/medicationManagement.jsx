@@ -10,6 +10,7 @@ import therapy from '../../img/therapy4.jpg'
 import heartIcon from '../../img/heart-icon.jpg'
 import HotLineDetails from "../../component/hotlineDetails"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 
 export const MedicationManagement = () =>{
@@ -20,6 +21,14 @@ export const MedicationManagement = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Medication Management | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Receive expert medication management at Springfield Mental Health and Psychosocial Services to ensure safe and effective treatment for mental health conditions." />
+        <meta name="keywords" content="Services, Medication Management, Psychiatric Medication, Mental Health Treatment, Prescription Management, Springfield Psychosocial Services, Psychiatry Support" />
+        <meta property="og:title" content="Medication Management | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Work with our mental health professionals to manage and optimize your medication for better well-being." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

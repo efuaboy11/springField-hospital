@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const SexualAssault  = () =>{
   const { 
@@ -120,6 +121,14 @@ export const SexualAssault  = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Sexual Assault & Mental Health | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about the impact of sexual assault on mental health, coping strategies, and available support at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Sexual Assault, Trauma, PTSD, Mental Health Support, Counseling for Survivors, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Sexual Assault & Mental Health | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand the effects of sexual assault on mental health and explore resources for healing and support." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Marijuana  = () =>{
   const { 
@@ -120,6 +121,14 @@ export const Marijuana  = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Marijuana Use | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about the effects of marijuana use on mental health, potential risks, and available support at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Marijuana Use, Cannabis and Mental Health, Effects of Weed, Substance Use, Mental Health Risks, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Marijuana Use | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand how marijuana use impacts mental health and explore resources for support and education." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

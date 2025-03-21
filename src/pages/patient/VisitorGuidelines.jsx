@@ -4,6 +4,7 @@ import { Header, Navbar } from "../../component/navbar"
 import { Link } from "react-router-dom"
 import { Footer } from "../../component/footer"
 import "../../css/componentCss/sidebarBox.css"
+import { Helmet } from "react-helmet-async"
 
 export const VisitorGuidelines = () =>{
   const { 
@@ -37,6 +38,15 @@ export const VisitorGuidelines = () =>{
   }, []);
   return(
     <div>
+      <Helmet>
+        <title>Visitor Guidelines | Springfield Mental Health and Pyschosocal Services</title>
+        <meta name="description" content="Review our visitor guidelines to ensure a safe and supportive environment at Springfield Mental Health and Pyschosocal Services." />
+        <meta name="keywords" content="Visitor Guidelines, Mental Health and Pyschosocal Services Rules, Patient Visitation, Springfield Mental Health, Supportive Environment" />
+        <meta property="og:title" content="Visitor Guidelines | Springfield Mental Health and Pyschosocal Services" />
+        <meta property="og:description" content="Learn about our visitor policies and how you can support your loved ones during their mental health journey." />
+      </Helmet>
+
+
       <div>
         <Header />
       </div>

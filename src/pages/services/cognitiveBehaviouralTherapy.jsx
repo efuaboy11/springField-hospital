@@ -10,6 +10,7 @@ import therapy from '../../img/therapy3.jpg'
 import heartIcon from '../../img/heart-icon.jpg'
 import HotLineDetails from "../../component/hotlineDetails"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 
 export const CognitiveTherapy = () =>{
@@ -20,6 +21,14 @@ export const CognitiveTherapy = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Cognitive Behavioral Therapy | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn how Cognitive Behavioral Therapy (CBT) at Springfield Mental Health and Psychosocial Services can help you manage thoughts, emotions, and behaviors." />
+        <meta name="keywords" content="Services, Cognitive Behavioral Therapy, CBT, Mental Health Treatment, Anxiety Therapy, Depression Therapy, Behavioral Therapy, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Cognitive Behavioral Therapy | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Discover how CBT can help you develop healthier thought patterns and improve emotional well-being." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

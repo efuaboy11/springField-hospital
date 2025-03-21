@@ -173,7 +173,7 @@ export const Navbar = () =>{
 
                         <li className='px-3'>
                           <div onClick={toggleAbout}> 
-                            <p className={`${aboutDropdown ? 'nav-active-link': ''} navbar-links cursor-pointer`}>About Company</p>
+                            <p className={`${aboutDropdown ? 'nav-active-link': ''} navbar-links cursor-pointer`}>About Facility</p>
                           </div>
                         </li>
 
@@ -341,9 +341,9 @@ export const Navbar = () =>{
 
                       <div className="d-flex">
                         <div className='me-5 pe-5'>
-                          <p className="light-text">About Company</p>
+                          <p className="light-text">About Facility</p>
                           <li className='mb-3'>
-                            <Link to='/about-us/' className='nav-sublink'>
+                            <Link to='/about-facility/about-us/' className='nav-sublink'>
                               <p>About Us</p>                
                             </Link>
                           </li>
@@ -354,57 +354,34 @@ export const Navbar = () =>{
                             </Link>
                           </li>
 
+                          <p className="light-text">Regulations</p>
                           <li className='mb-3'>
-                            <Link to='/affiliate-program/' className='nav-sublink'>
-                              <p>Affiliate Programs</p>                
+                            <Link to='/about-facility/regulation-explained/' className='nav-sublink'>
+                              <p>Regulation Explained</p>                
                             </Link>
                           </li>
-
-                          <p className="light-text">Trading Condition</p>
-                          <li className='mb-3'>
-                            <Link to='/order-execution/' className='nav-sublink'>
-                              <p>Order of Execution</p>                
-                            </Link>
-                          </li>
-
-                          <li className='mb-3'>
-                            <Link to='/margin-requirement/' className='nav-sublink'>
-                              <p>Margin Requirements</p>                
-                            </Link>
-                          </li>
+                          
 
                         </div>
 
 
 
                         <div className='me-5 pe-5'>
-                          <p className="light-text">Regulations</p>
-                          <li className='mb-3'>
-                            <Link to='/regulations/' className='nav-sublink'>
-                              <p>Regulation Explained</p>                
-                            </Link>
-                          </li>
                           <p className="light-text">Transparency</p>
                           <li className='mb-3'>
-                            <Link to='/privacy-policy/' className='nav-sublink'>
+                            <Link to='/about-facility/privacy-policies/' className='nav-sublink'>
                               <p>Privacy Policy</p>                
                             </Link>
                           </li>
 
                           <li className='mb-3'>
-                            <Link to='/safety-funds/' className='nav-sublink'>
-                              <p>Safety Funds</p>                
-                            </Link>
-                          </li>
-
-                          <li className='mb-3'>
-                            <Link to='/risk-disclosure/' className='nav-sublink'>
+                            <Link to='/about-facility/risk-disclosure/' className='nav-sublink'>
                               <p>Risk Disclosure</p>                
                             </Link>
                           </li>
 
                           <li className='mb-3'>
-                            <Link to='/terms-and-conditions/' className='nav-sublink'>
+                            <Link to='/about-facility/terms-conditions/' className='nav-sublink'>
                               <p>Terms and Conditions</p>                
                             </Link>
                           </li>
@@ -415,26 +392,20 @@ export const Navbar = () =>{
                         <div>
                           <p>...</p>
                           <li className='mb-3'>
-                            <Link to='/information-security/' className='nav-sublink'>
+                            <Link to='/about-facility/information-security/' className='nav-sublink'>
                               <p>Information Security</p>                
                             </Link>
                           </li>
 
                           <li className='mb-3'>
-                            <Link to='/interest-conflict/' className='nav-sublink'>
-                              <p>Conflit of Interest</p>                
+                            <Link to='/about-facility/ethical-guidelines/' className='nav-sublink'>
+                              <p>Ethical Guidelines</p>                
                             </Link>
                           </li>
 
                           <li className='mb-3'>
-                            <Link to='/complaints-procedure/' className='nav-sublink'>
+                            <Link to='/about-facility/complaint-procedure/' className='nav-sublink'>
                               <p>Complaint Procedure</p>                
-                            </Link>
-                          </li>
-
-                          <li className='mb-3'>
-                            <Link to='/margin-calls/' className='nav-sublink'>
-                              <p>Margin Calls</p>                
                             </Link>
                           </li>
                         </div>
@@ -549,7 +520,6 @@ export const Navbar = () =>{
                         </Link>
                       </li>
 
-                      <p className="light-text ps-3 pt-3">Fundings</p>
                       <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/get-information/mental-health-coping-strategies/") ?"client-sidebar-active-link": ""}`}>
                         <Link className='client-sidebar-link' to="/get-information/mental-health-coping-strategies/">
                           <div className="d-flex ms-3 py-2">
@@ -735,7 +705,7 @@ export const Navbar = () =>{
                     <ul className={` client-sidebar-dropdown-bg ${sidebarAboutDropdown ? "client-sidebar-dropdown-slide-in" : "client-sidebar-dropdown-slide-out"}`}>
                       <p className="light-text ps-3 pt-3">About Company</p>
                       <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/about-us/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/about-us/">
+                        <Link className='client-sidebar-link' to="/about-facility/about-us/">
                           <div className="d-flex ms-3 py-2">
                             <p>About Us</p> 
                           </div>
@@ -751,34 +721,10 @@ export const Navbar = () =>{
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/affiliate-program/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/affiliate-program/">
-                          <div className="d-flex ms-3 py-2">
-                            <p>Affilate Programs</p> 
-                          </div>
-                        </Link>
-                      </li>
-
-                      <p className="light-text ps-3 pt-3">Trading Conditions</p>
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/order-execution/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/order-execution/">
-                          <div className="d-flex ms-3 py-2">
-                            <p className='font-weight'>Order of Execution</p> 
-                          </div>
-                        </Link>
-                      </li>
-
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/margin-requirement/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/margin-requirement/">
-                          <div className="d-flex ms-3 py-2">
-                            <p className='font-weight'>Margin Requirement</p> 
-                          </div>
-                        </Link>
-                      </li>
 
                       <p className="light-text ps-3 pt-3">Regulation</p>
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/regulations/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/regulations/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/about-facility/regulation-explained/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/about-facility/regulation-explained/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Regulation  Explained</p> 
                           </div>
@@ -786,32 +732,25 @@ export const Navbar = () =>{
                       </li>
 
                       <p className="light-text ps-3 pt-3">Transparency </p>
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/privacy-policy/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/privacy-policy/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/about-facility/privacy-policies/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/about-facility/privacy-policies/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Privacy Policy</p> 
                           </div>
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/safety-funds/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/safety-funds/">
-                          <div className="d-flex ms-3 py-2">
-                            <p className='font-weight'>Safety Funds</p> 
-                          </div>
-                        </Link>
-                      </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/risk-disclosure/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/risk-disclosure/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/about-facility/risk-disclosure/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/about-facility/risk-disclosure/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Risk Disclosure</p> 
                           </div>
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/terms-and-conditions/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/terms-and-conditions/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/about-facility/terms-conditions/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/about-facility/terms-conditions/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Terms and Conditions</p> 
                           </div>
@@ -819,18 +758,18 @@ export const Navbar = () =>{
                       </li>
 
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/information-security/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/information-security/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/about-facility/information-security/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/about-facility/information-security/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Information Security</p> 
                           </div>
                         </Link>
                       </li>
 
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/interest-conflict/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/interest-conflict/">
+                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/about-facility/ethical-guidelines/") ?"client-sidebar-active-link": ""}`}>
+                        <Link className='client-sidebar-link' to="/about-facility/ethical-guidelines/">
                           <div className="d-flex ms-3 py-2">
-                            <p className='font-weight'>Conflit of Interest</p> 
+                            <p className='font-weight'>Ethical Guidelines</p> 
                           </div>
                         </Link>
                       </li>
@@ -839,15 +778,6 @@ export const Navbar = () =>{
                         <Link className='client-sidebar-link' to="/complaints-procedure/">
                           <div className="d-flex ms-3 py-2">
                             <p className='font-weight'>Complaint Procedure</p> 
-                          </div>
-                        </Link>
-                      </li>
-
-
-                      <li className={`client-sidebar-dropdown-link ${isActiveDashLink("/margin-calls/") ?"client-sidebar-active-link": ""}`}>
-                        <Link className='client-sidebar-link' to="/margin-calls/">
-                          <div className="d-flex ms-3 py-2">
-                            <p className='font-weight'>Margin Calls</p> 
                           </div>
                         </Link>
                       </li>

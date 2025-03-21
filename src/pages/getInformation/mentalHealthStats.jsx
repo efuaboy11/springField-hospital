@@ -9,6 +9,7 @@ import nigeriaMap from '../../img/nigeriaMap.jpg'
 import togetherness from '../../img/togetherness.jpg'
 import heartIcon from '../../img/heart-icon.jpg'
 import HotLineDetails from "../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 
 export const MentalHealthStats = () =>{
@@ -20,6 +21,14 @@ export const MentalHealthStats = () =>{
   const percentage = 66;
   return(
     <div>
+      <Helmet>
+        <title>Mental Health Facts & Statistics | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Explore key mental health facts and statistics in Nigeria, including prevalence rates, challenges, and the state of mental healthcare." />
+        <meta name="keywords" content="Mental Health Statistics Nigeria, Nigerian Mental Health Facts, Mental Illness Prevalence, Springfield Psychosocial Services, Mental Healthcare in Nigeria" />
+        <meta property="og:title" content="Mental Health Facts & Statistics | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Get insights into mental health trends, challenges, and access to care in Nigeria." />
+      </Helmet>
+
       <div>
         <Header />
       </div>

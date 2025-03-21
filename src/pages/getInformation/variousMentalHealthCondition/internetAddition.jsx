@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const InternetAddition = () =>{
   const { 
@@ -120,6 +121,14 @@ export const InternetAddition = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Internet Addiction | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about Internet Addiction, its symptoms, effects on mental health, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Internet Addiction, Digital Addiction, Screen Time Dependency, Mental Health, Technology Addiction, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Internet Addiction | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand Internet Addiction, its impact on mental health, and strategies for healthy digital habits." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

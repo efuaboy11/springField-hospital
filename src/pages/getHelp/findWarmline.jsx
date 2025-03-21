@@ -20,6 +20,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../component/hotlineDetails"
 import WhyChooseUs from "../../component/whyChooseUs"
+import { Helmet } from "react-helmet-async"
 
 export const FindWarmline = () =>{
   const { 
@@ -57,6 +58,14 @@ export const FindWarmline = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Find Warmline | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Connect with a warmline for confidential, non-emergency mental health support at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Warmline, Mental Health Support, Peer Support, Talk to Someone, Emotional Support, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Find Warmline | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Find a warmline for emotional support and mental health assistance in a non-crisis situation." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

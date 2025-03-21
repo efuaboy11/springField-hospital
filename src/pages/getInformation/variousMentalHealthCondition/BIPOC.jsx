@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const BIPOC  = () =>{
   const { 
@@ -120,6 +121,14 @@ export const BIPOC  = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>BIPOC Mental Health | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Explore mental health challenges and resources for BIPOC (Black, Indigenous, and People of Color) communities at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="BIPOC Mental Health, Mental Health Disparities, Black Mental Health, Indigenous Wellness, Mental Health Support for People of Color, Springfield Psychosocial Services" />
+        <meta property="og:title" content="BIPOC Mental Health | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Learn about the unique mental health experiences of BIPOC communities and find culturally competent support." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

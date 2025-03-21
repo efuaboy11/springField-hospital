@@ -39,6 +39,14 @@ import { WhatToExpect } from "./pages/patient/whatToExpect";
 import { VisitorGuidelines } from "./pages/patient/VisitorGuidelines";
 import { PatientsResources } from "./pages/patient/patientsResources";
 import { BookAppointment } from "./pages/bookAppointment/bookAppointment";
+import { AboutUs } from "./pages/about/aboutUs";
+import { Regulation } from "./pages/about/regulation";
+import { Privacy } from "./pages/about/privacyPolicies";
+import { RiskDisclosure } from "./pages/about/riskDisclosure";
+import { TermsConditions } from "./pages/about/termsCondition";
+import { InformationSecurity } from "./pages/about/informationSecurty";
+import { ComplaintProcedure } from "./pages/about/complaintProcedure";
+import { EthicalGuidelines } from "./pages/about/ethicalGuidelines";
 
 
 
@@ -102,6 +110,16 @@ function App() {
             <Route path="/patients-visitor/visitors-guideline/" element={<VisitorGuidelines />} />
             <Route path="/patients-visitor/patient-resources-support/" element={<PatientsResources />} />
             <Route path="/book-appointment/" element={<BookAppointment />} />
+
+            {/* About Us */}
+            <Route path="/about-facility/about-us/" element={<AboutUs />} />
+            <Route path="/about-facility/regulation-explained/" element={<Regulation />} />
+            <Route path="/about-facility/privacy-policies/" element={<Privacy />} />
+            <Route path="/about-facility/risk-disclosure/" element={<RiskDisclosure />} />
+            <Route path="/about-facility/terms-conditions/" element={<TermsConditions />} />
+            <Route path="/about-facility/information-security/" element={<InformationSecurity />} />
+            <Route path="/about-facility/complaint-procedure/" element={<ComplaintProcedure />} />
+            <Route path="/about-facility/ethical-guidelines/" element={<EthicalGuidelines />} />
           </Routes>
 
         </AuthProvider>

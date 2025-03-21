@@ -26,6 +26,7 @@ import condition17 from '../../img/condition17.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const MentalHealthCondition = () =>{
   const { 
@@ -36,6 +37,14 @@ export const MentalHealthCondition = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Mental Health Conditions | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about common mental health conditions, their symptoms, and available treatments at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Mental Health Conditions, Anxiety, Depression, PTSD, Bipolar Disorder, Springfield Psychosocial Services, Mental Health Awareness" />
+        <meta property="og:title" content="Mental Health Conditions | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand different mental health conditions and explore treatment options for better well-being." />
+      </Helmet>
+
       <div>
         <div>
           <Header />

@@ -8,6 +8,7 @@ import '../../../css/informationCss/getInformation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDown, faRibbon } from "@fortawesome/free-solid-svg-icons"
 import HotLineDetails from "../../../component/hotlineDetails"
+import { Helmet } from "react-helmet-async"
 
 export const Psychosis = () =>{
   const { 
@@ -120,6 +121,14 @@ export const Psychosis = () =>{
 
   return(
     <div>
+      <Helmet>
+        <title>Psychosis | Springfield Mental Health and Psychosocial Services</title>
+        <meta name="description" content="Learn about psychosis, its symptoms, causes, and treatment options at Springfield Mental Health and Psychosocial Services." />
+        <meta name="keywords" content="Psychosis, Hallucinations, Delusions, Schizophrenia, Mental Health, Therapy for Psychosis, Springfield Psychosocial Services" />
+        <meta property="og:title" content="Psychosis | Springfield Mental Health and Psychosocial Services" />
+        <meta property="og:description" content="Understand psychosis, its impact on mental health, and explore effective management and treatment options." />
+      </Helmet>
+
       <div>
         <div>
           <Header />
