@@ -283,7 +283,7 @@ export const BookAppointment = () =>{
                                   checked={privacyChecked}
                                   onChange={(e) => setPrivacyChecked(e.target.checked)}
                                 />
-                                <label>Privacy Policy Agreement</label>
+                                <label><Link className="Link" to='/about-facility/privacy-policies/'>Privacy Policy Agreement</Link></label>
                               </div>
 
                               <div className="col-12">
@@ -293,7 +293,7 @@ export const BookAppointment = () =>{
                                   checked={cancellationChecked}
                                   onChange={(e) => setCancellationChecked(e.target.checked)}
                                 />
-                                <label>Cancellation Policy Agreement</label>
+                                <label><Link className="Link" to='/about-facility/terms-conditions/'>Cancellation Policy Agreement</Link></label>
                               </div>
                               {errorMessage && <p style={{ color: "red", marginTop: "10px" }}>{errorMessage}</p>}
 

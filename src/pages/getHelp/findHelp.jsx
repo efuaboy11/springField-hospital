@@ -97,7 +97,7 @@ export const FindHelp = () =>{
                       <p className="site-header font-bold pb-3">You are not alone—help is available.</p>
                       <p className="light-text-2">Seeking help for mental health challenges is a courageous and important step toward healing. Whether you're experiencing stress, anxiety, depression, or a crisis, Springfield Mental Health Services provides access to professional care, support groups, and crisis intervention.</p>
                       <div className="pt-4">
-                        <Link to='' className="site-btn px-5">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="site-btn px-5">Book Appointment</Link>
                       </div>
                     </div>
                   </div>

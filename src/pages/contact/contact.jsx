@@ -120,8 +120,8 @@ export const Contact = () =>{
             <div className="py-5 container-lg">
               <div className="d-flex justify-content-center text-center">
                 <div>
-                  <p className="site-primary-text md-text font-bold">Find Warmline</p>
-                  <p className="pt-2"><Link to='/' className="Link"><i class="bi bi-house"></i> Home</Link> <i class="ri-arrow-right-fill"></i> Get Help <i class="ri-arrow-right-fill"></i>Find Warmline</p>
+                  <p className="site-primary-text md-text font-bold">Contact</p>
+                  <p className="pt-2"><Link to='/' className="Link"><i class="bi bi-house"></i> Home</Link> <i class="ri-arrow-right-fill"></i> Contact</p>
                 </div>
                 
               </div>
@@ -136,12 +136,12 @@ export const Contact = () =>{
                 <div>
                   <div className="d-flex align-center pb-3">
                     <FontAwesomeIcon className="site-primary-text pe-2" icon={faLocationDot}/>
-                    <p className="light-text-2">27 Division St, 1100. E Denver, CO 80237, USA</p>
+                    <p className="light-text-2">33 OKapemen street off shatan marKet, GRA Benin, city</p>
                   </div>
 
                   <div className="d-flex align-center pb-3">
                     <FontAwesomeIcon className="site-primary-text pe-2" icon={faPhone}/>
-                    <p className="light-text-2">+1 (983) 458-3459</p>
+                    <p className="light-text-2">+234  (912 516 1750) or +234  (707 326 0115)</p>
                   </div>
 
                   <div className="d-flex align-center pb-3">
@@ -155,12 +155,13 @@ export const Contact = () =>{
               <div className="box-shadow-2 border-radius-10px p-4 mb-4">
                 <p className="site-header font-weight-700 pb-3">Opening Hours</p>
                 <div>
-                  <p className="pb-2"><span className="font-weight-700">Mondays:</span> 08:00 - 20:00 (GMT+3)</p>
-                  <p className="pb-2"><span className="font-weight-700">Tuesdays:</span> 08:00 - 20:00 (GMT+3)</p>
-                  <p className="pb-2"><span className="font-weight-700">Wednesdays:</span> 08:00 - 20:00 (GMT+3)</p>
-                  <p className="pb-2"><span className="font-weight-700">Thursdays:</span> 08:00 - 20:00 (GMT+3)</p>
-                  <p className="pb-2"><span className="font-weight-700">Fridays:</span> 08:00 - 20:00 (GMT+3)</p>
-                  <p className="pb-2"><span className="font-weight-700">Saturdays:</span> 12:00 - 18:00 (GMT+3)</p>
+                  <p className="pb-2"><span className="font-weight-700">Mondays:</span> 24/7 (GMT+3)</p>
+                  <p className="pb-2"><span className="font-weight-700">Tuesdays:</span> 24/7 (GMT+3)</p>
+                  <p className="pb-2"><span className="font-weight-700">Wednesdays:</span> 24/7 (GMT+3)</p>
+                  <p className="pb-2"><span className="font-weight-700">Thursdays:</span> 24/7 (GMT+3)</p>
+                  <p className="pb-2"><span className="font-weight-700">Fridays:</span> 24/7 (GMT+3)</p>
+                  <p className="pb-2"><span className="font-weight-700">Saturdays:</span> 24/7 (GMT+3)</p>
+                  <p className="pb-2"><span className="font-weight-700">Sundays:</span> 12:00 - 18:00 (GMT+3)</p>
                 </div>
 
               </div>

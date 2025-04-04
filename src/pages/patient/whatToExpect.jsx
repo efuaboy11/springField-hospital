@@ -54,7 +54,7 @@ export const WhatToExpect = () =>{
                       <p className="site-header font-bold pb-3">What to Expect from Our Mental Health Services</p>
                       <p className="light-text-2">At Springfield Mental Health Services, we are committed to providing exceptional care that meets the highest standards of professionalism, compassion, and effectiveness. When you seek mental health support with us, here are the key qualities you can expect from our team and services.</p>
                       <div className="pt-4">
-                        <Link to='' className="site-btn px-5">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="site-btn px-5">Book Appointment</Link>
                       </div>
                     </div>
                   </div>

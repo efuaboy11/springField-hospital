@@ -812,7 +812,7 @@ export const Header = () =>{
           <div className="d-lg-flex d-none">
             <div className="d-flex pe-5">
               <i class="ri-phone-fill"></i>
-              <p className="ps-3">080790226444</p>
+              <p className="ps-3">+234  (912 516 1750)</p>
             </div>
 
             <div className="d-flex pe-5">
@@ -822,7 +822,7 @@ export const Header = () =>{
 
             <div className="d-flex pe-5">
               <i class="ri-map-pin-line"></i>
-              <p className="ps-3">Adolo college road</p>
+              <p className="ps-3">33 Okapemen street off shatan marKet, GRA Benin, city</p>
             </div>
 
 

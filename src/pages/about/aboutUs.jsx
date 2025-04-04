@@ -81,7 +81,7 @@ export const AboutUs = () =>{
                     </div>
                     <div className="pb-5">
                       <h3 className="pb-3">Our Mission</h3>
-                      <p className="light-text-2">We envision a future where mental health care is readily available to all, where individuals feel seen, heard, and valued, and where everyone has the opportunity to heal and thrive. Through continuous innovation, research-driven approaches, and a deep commitment to our patients, we aim to be a leading force in transforming mental health care.</p>
+                      <p className="light-text-2">Our mission is to break the stigma surrounding mental health by providing accessible and comprehensive services that empower individuals to overcome their challenges. We strive to create a world where seeking mental health support is embraced with openness, understanding, and compassion.</p>
                     </div>
 
                     <div className="pb-5">

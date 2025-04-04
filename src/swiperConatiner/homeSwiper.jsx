@@ -63,7 +63,7 @@ export const HomeCoverCarousel = () => {
                     <p className="home-cover-carousel-sub-text site-primary-text">{slide.subtitle}</p>
                     <h1 className="home-cover-carousel-header py-2">{slide.title}</h1>
                     <p className="light-text home-cover-carousel-text-content-width  pb-4">{slide.text}</p>
-                    <Link to='/register' className="uppercase site-btn px-4">Book Appointment</Link>
+                    <Link to='/book-appointment/' className="uppercase site-btn px-4">Book Appointment</Link>
                   </div>
                 </div>
               </div>

@@ -118,7 +118,7 @@ export const AppointmentScheduling = () =>{
                       <p className="site-header font-bold pb-3">Your Mental Well-Being Matters: Easy & Accessible Care.</p>
                       <p className="light-text-2">At Springfield Mental Health Services, we believe that mental well-being is essential for a fulfilling life. Seeking support is a courageous step, and we are here to make the process as simple, accessible, and stress-free as possible. Whether you're looking for therapy, counseling, or medication management, scheduling an appointment is quick and easy.</p>
                       <div className="pt-4">
-                        <Link to='' className="site-btn px-5">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="site-btn px-5">Book Appointment</Link>
                       </div>
                     </div>
                   </div>
@@ -246,11 +246,11 @@ export const AppointmentScheduling = () =>{
 
                             <div className="d-flex pb-3">
                               <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
-                              <p className="light-text-2">   Rescheduling within less than 24 hours may be subject to a late rescheduling fee of 5000NGN due to short-notice adjustments in our schedule.</p>
+                              <p className="light-text-2">   Rescheduling within less than 24 hours may be subject to query due to short-notice adjustments in our schedule.</p>
                             </div>
 
                             <div className="pt-4 ms-4 ps-1">
-                              <Link className="site-btn">Book Appointment</Link>
+                              <Link to='/book-appointment/' className="site-btn">Book Appointment</Link>
                             </div>
 
                           </div>
@@ -266,7 +266,7 @@ export const AppointmentScheduling = () =>{
 
                             <div className="d-flex pb-3">
                               <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
-                              <p className="light-text-2">  If you cancel within less than 24 hours of your appointment, a cancellation fee of 2000NGN will apply.</p>
+                              <p className="light-text-2">  If you cancel within less than 24 hours of your appointment, there will be a query.</p>
                             </div>
 
                             <div className="d-flex pb-3">
@@ -275,7 +275,7 @@ export const AppointmentScheduling = () =>{
                             </div>
 
                             <div className="pt-4 ms-4 ps-1">
-                              <Link className="site-btn">Book Appointment</Link>
+                              <Link to='/book-appointment/' className="site-btn">Book Appointment</Link>
                             </div>
 
                           </div>
@@ -291,16 +291,11 @@ export const AppointmentScheduling = () =>{
 
                             <div className="d-flex pb-3">
                               <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
-                              <p className="light-text-2"> A no-show fee of 54000NGN will be charged, and repeated no-shows may result in restrictions on booking future appointments.</p>
-                            </div>
-
-                            <div className="d-flex pb-3">
-                              <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
                               <p className="light-text-2">  If you miss two consecutive appointments without notice, we may require a consultation before scheduling another session.</p>
                             </div>
 
                             <div className="pt-4 ms-4 ps-1">
-                              <Link className="site-btn">Book Appointment</Link>
+                              <Link to='/book-appointment/' className="site-btn">Book Appointment</Link>
                             </div>
 
                           </div>

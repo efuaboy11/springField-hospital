@@ -111,10 +111,10 @@ export const Home = () =>{
                   <div className="col-md-7 col-lg-5">
                     <div className="d-flex align-center responsive-centralized-text">
                       <div>
-                        <p className="xl-text font-bold pb-4">Your Mental Health is Our Priotiy</p>
+                        <p className="xl-text font-bold pb-4">Your Mental Health is Our Priority</p>
                         <p className="light-text-2 italic-text">Mental health is as important as physical health. It affects how we think, feel, and interact with the world. Seeking help is not a sign of weakness but a courageous step towards healing and growth. Our facility provides a safe space where you can find the support you need to overcome challenges and build a fulfilling life.</p>
                         <div className="mt-5">
-                          <Link className="site-btn width-100 text-center">Learn More</Link>
+                          <Link to='/mental-health-condition/' className="site-btn width-100 text-center">Learn More</Link>
                         </div>
                        
                       </div>
@@ -191,7 +191,7 @@ export const Home = () =>{
                       <p className="site-header pb-4">Mental Health Condition in <br /> Nigeria Today</p>
                       <p className="light-text-2">Mental health in Nigeria remains a major public health concern, with rising cases of anxiety, depression, PTSD, and substance abuse. Despite a growing awareness, stigma and lack of access to quality mental health care continue to be major challenges. The country has limited mental health professionals, with only a few psychiatric hospitals serving millions of people. In 2022, Nigeria passed its Mental Health Act, aiming to improve policies and protect the rights of those with mental illnesses. However, funding, infrastructure, and awareness programs are still inadequate. More efforts are needed to integrate mental health care into primary health services and community support systems.</p>
                       <div className="mt-4">
-                        <Link className="site-inverse-btn width-100 text-center">Learn More</Link>
+                        <Link to='/get-information/mental-health-statistics/' className="site-inverse-btn width-100 text-center">Learn More</Link>
                       </div>
                     </div>
                   </div>
@@ -276,7 +276,7 @@ export const Home = () =>{
                         </div>
 
                         <div className="mt-4">
-                          <Link className="site-inverse-btn width-100 text-center">Learn More</Link>
+                          <Link to='/get-information/mental-health-statistics/'  className="site-inverse-btn width-100 text-center">Learn More</Link>
                         </div>
                       </div>
                     </div>
@@ -399,7 +399,7 @@ export const Home = () =>{
                 </div>
 
                 <div className="mt-5 d-flex justify-content-center">
-                  <Link to='/register' className="site-btn px-5">Book Appointment</Link>
+                  <Link to='/book-appointment/' className="site-btn px-5">Book Appointment</Link>
                 </div>
               </div>
             </section>

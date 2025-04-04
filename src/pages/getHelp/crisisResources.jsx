@@ -64,7 +64,7 @@ export const CrisisResources = () =>{
                       <p className="site-header font-bold">You Are Not Alone – Get Immediate Help</p>
                       <p className="light-text-2">If you or someone you know is in distress, experiencing a crisis, or struggling with mental health challenges, help is available. Reach out to professional support services that can provide guidance, emotional support, and immediate assistance.</p>
                       <div className="pt-4">
-                        <Link to='' className="site-btn px-5">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="site-btn px-5">Book Appointment</Link>
                       </div>
                     </div>
                   </div>
@@ -92,22 +92,7 @@ export const CrisisResources = () =>{
                       <div className="pt-4">
                         <div className="d-flex pb-3">
                           <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
-                          <p className="light-text-2"> Call for Emergency Help: Dial 112 or 199 (Nigeria Police Emergency Line) if you or someone else is at risk of harm.</p>
-                        </div>
-
-                        <div className="d-flex pb-3">
-                          <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
-                          <p className="light-text-2">  Reach a Crisis Hotline: Contact 0809 111 6264 (Mentally Aware Nigeria Initiative) for confidential mental health support.</p>
-                        </div>
-
-                        <div className="d-flex pb-3">
-                          <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
-                          <p className="light-text-2">  Go to a Hospital or Clinic: Visit the nearest psychiatric hospital or mental health center for urgent care.</p>
-                        </div>
-
-                        <div className="d-flex pb-3">
-                          <i class="ri-check-line pe-3 site-primary-text sm-text font-bold"></i> 
-                          <p className="light-text-2">  Stay with Someone Safe: If you are in distress, reach out to a trusted friend, family member, or counselor for immediate support.</p>
+                          <p className="light-text-2"> Call for Emergency Help: Dial (+234 912 516 1750) or (+234 707 326 0115) if you or someone else is at risk of harm.</p>
                         </div>
                        
                       </div>
@@ -261,24 +246,18 @@ export const CrisisResources = () =>{
                       <div className="pt-4">
                         <div className="d-flex pb-3">
                           <i class="ri-circle-fill pe-3 site-primary-text  sm-text font-bold"></i> 
-                          <p className="light-text-2"> Government Hospitals & Clinics – Many offer low-cost or free counseling services.</p>
+                          <p className="light-text-2"> 48 -72 hours admission – This will help reduce the level of agitation through a more fast approach with medications. Then care can be contiuned on out patients bases</p>
                         </div>
 
                         <div className="d-flex pb-3">
                           <i class="ri-circle-fill pe-3 site-primary-text  sm-text font-bold"></i> 
-                          <p className="light-text-2">  University Psychology Departments – Some universities offer therapy by supervised students.</p>
+                          <p className="light-text-2">  online mental health support –  Support with psychotherapy at cost people can afford.</p>
                         </div>
 
                         <div className="d-flex pb-3">
                           <i class="ri-circle-fill pe-3 site-primary-text  sm-text font-bold"></i> 
                           <p className="light-text-2">  Faith-Based & Community Groups – Churches, mosques, and NGOs often provide free support.</p>
-                        </div>
-
-                        <div className="d-flex pb-3">
-                          <i class="ri-circle-fill pe-3 site-primary-text  sm-text font-bold"></i> 
-                          <p className="light-text-2"> Online Mental Health Forums – Free peer support communities like Reddit’s r/mentalhealth or The Mighty.</p>
-                        </div>
-                       
+                        </div>                      
                       </div>
                     </div>
                   </div>

@@ -97,7 +97,7 @@ export const MentalHealthTreatment = () =>{
                       <p className="site-header font-bold pb-3">Priotize Your Mental Health</p>
                       <p className="light-text-2">Mental health treatment is essential for managing conditions such as anxiety, depression, PTSD, bipolar disorder, and more. Various treatment options exist to provide personalized care based on an individual's needs. At Springfield Mental Health Services, we offer comprehensive mental health treatments designed to help individuals regain emotional balance and well-being.</p>
                       <div className="pt-4">
-                        <Link to='' className="site-btn px-5">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="site-btn px-5">Book Appointment</Link>
                       </div>
                     </div>
                   </div>

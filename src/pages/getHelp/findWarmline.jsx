@@ -98,7 +98,7 @@ export const FindWarmline = () =>{
                       <p className="light-text-2">Sometimes, you just need someone to talk to. Warmlines provide free, confidential, and non-judgmental support for individuals who need emotional support but are not in immediate crisis.
                         Whether you're feeling overwhelmed, stressed, or just need to be heard, trained peer supporters are available to listen and help.</p>
                       <div className="pt-4">
-                        <Link to='' className="site-btn px-5">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="site-btn px-5">Book Appointment</Link>
                       </div>
                     </div>
                   </div>

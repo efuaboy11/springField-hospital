@@ -5,11 +5,13 @@ import { Link } from "react-router-dom"
 import { Footer } from "../../component/footer"
 import gallery1 from '../../img/gallery1.jpg'
 import gallery2 from '../../img/gallery2.jpg'
-import gallery3 from '../../img/gallery3.jpg'
+import gallery3 from '../../img/sittingroom1.jpg'
 import gallery4 from '../../img/gallery4.jpg'
 import gallery5 from '../../img/gallery5.jpg'
 import gallery6 from '../../img/gallery6.jpg'
 import gallery7 from '../../img/gallery7.jpg'
+import gallery8 from '../../img/office1.jpg'
+import gallery9 from '../../img/room1.jpg'
 import { Helmet } from "react-helmet-async"
 
 export const Gallery = () =>{
@@ -74,14 +76,7 @@ export const Gallery = () =>{
                       </div>
                     </div>
 
-                    <div className="col-xxl-3 col-lg-4 col-sm-6">
-                      <div>
-                        <img src={gallery3} alt="" width='100%'/>
-                        <div className="dark-background p-2">
-                          <p>Attending To Patients</p>
-                        </div>                 
-                      </div>
-                    </div>
+
 
                     <div className="col-xxl-3 col-lg-4 col-sm-6">
                       <div>
@@ -115,6 +110,33 @@ export const Gallery = () =>{
                         <img src={gallery7} alt="" width='100%' height='240px'/>
                         <div className="dark-background p-2"> 
                           <p>Membbers Off Staff</p>
+                        </div>                 
+                      </div>
+                    </div>
+
+                    <div className="col-xxl-3 col-lg-4 col-sm-6">
+                      <div>
+                        <img src={gallery3} alt="" width='100%'/>
+                        <div className="dark-background p-2">
+                          <p>Patients Relaxation Area</p>
+                        </div>                 
+                      </div>
+                    </div>
+
+                    <div className="col-xxl-3 col-lg-4 col-sm-6">
+                      <div>
+                        <img src={gallery8} alt="" width='100%'/>
+                        <div className="dark-background p-2">
+                          <p>Patients Relaxation Area</p>
+                        </div>                 
+                      </div>
+                    </div>
+
+                    <div className="col-xxl-3 col-lg-4 col-sm-6">
+                      <div>
+                        <img src={gallery9} alt="" width='100%'/>
+                        <div className="dark-background p-2">
+                          <p>Patients Bedroom</p>
                         </div>                 
                       </div>
                     </div>

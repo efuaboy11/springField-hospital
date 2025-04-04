@@ -44,7 +44,7 @@ const WhyChooseUs = () =>{
                           <Link className="me-3 light-link sm-text"><i class="ri-twitter-x-line"></i></Link>
 
                         </div>
-                        <Link className="special-box-btn">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="special-box-btn">Book Appointment</Link>
                       </div>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ const WhyChooseUs = () =>{
                           <Link className="me-3 light-link sm-text"><i class="ri-twitter-x-line"></i></Link>
 
                         </div>
-                        <Link className="special-box-btn">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="special-box-btn">Book Appointment</Link>
                       </div>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ const WhyChooseUs = () =>{
                           <Link className="me-3 light-link sm-text"><i class="ri-twitter-x-line"></i></Link>
 
                         </div>
-                        <Link className="special-box-btn">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="special-box-btn">Book Appointment</Link>
                       </div>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ const WhyChooseUs = () =>{
                           <Link className="me-3 light-link sm-text"><i class="ri-twitter-x-line"></i></Link>
 
                         </div>
-                        <Link className="special-box-btn">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="special-box-btn">Book Appointment</Link>
                       </div>
                     </div>
                   </div>
@@ -167,7 +167,7 @@ const WhyChooseUs = () =>{
                           <Link className="me-3 light-link sm-text"><i class="ri-twitter-x-line"></i></Link>
 
                         </div>
-                        <Link className="special-box-btn">Book Appointment</Link>
+                        <Link to='/book-appointment/' className="special-box-btn">Book Appointment</Link>
                       </div>
                     </div>
                   </div>
