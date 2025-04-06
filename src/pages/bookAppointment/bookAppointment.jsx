@@ -54,8 +54,8 @@ export const BookAppointment = () =>{
 
     emailjs
       .send(
-        "service_7457fxr",  // Replace with your EmailJS Service ID
-        "template_8wha0mq", // Replace with your EmailJS Template ID
+        "service_3pffh7e",  // Replace with your EmailJS Service ID
+        "template_5uifhir", // Replace with your EmailJS Template ID
         {  
           full_name: fullName,        // Match template variables
           dob: DOB,
@@ -69,7 +69,7 @@ export const BookAppointment = () =>{
           health_Conditon: healthConditon,
           additional_note: additionalNote,
         },
-        "AQ-xd10VtIjfba0Yv"  // Replace with your EmailJS Public Key
+        "dMmhX1EjjLNWuFdrk"  // Replace with your EmailJS Public Key
       )
       .then(
         (result) => {

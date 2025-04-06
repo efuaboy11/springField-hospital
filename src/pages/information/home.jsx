@@ -511,7 +511,7 @@ export const Home = () =>{
   
                   <div className="pt-5 d-flex text-center justify-content-center font-bold ">
                       <div>
-                        <img width='70px' height='70px' className="p-1 site-round-border border-radius-50" src={customer2} alt="" />
+                        {/* <img width='70px' height='70px' className="p-1 site-round-border border-radius-50" src={customer2} alt="" /> */}
                         <p className="sm-text font-bold">Okechucku Micheal</p>
                         <p className="light-text-2 font-bold">Teacher</p>
                       </div>
@@ -550,7 +550,7 @@ export const Home = () =>{
   
                   <div className="pt-5 d-flex text-center justify-content-center font-bold ">
                       <div>
-                        <img width='70px' height='70px' className="p-1 site-round-border border-radius-50" src={customer1} alt="" />
+                        {/* <img width='70px' height='70px' className="p-1 site-round-border border-radius-50" src={customer1} alt="" /> */}
                         <p className="sm-text font-bold">Janet Okwu</p>
                         <p className="light-text-2 font-bold">Banker</p>
                       </div>
@@ -589,7 +589,7 @@ export const Home = () =>{
   
                   <div className="pt-5 d-flex text-center justify-content-center font-bold ">
                       <div>
-                        <img width='70px' height='70px' className="p-1 site-round-border border-radius-50" src={customer3} alt="" />
+                        {/* <img width='70px' height='70px' className="p-1 site-round-border border-radius-50" src={customer3} alt="" /> */}
                         <p className="sm-text font-bold">David Osemudiamen</p>
                         <p className="light-text-2 font-bold">Entrepreneur</p>
                       </div>

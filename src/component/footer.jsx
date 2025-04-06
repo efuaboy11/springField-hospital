@@ -16,28 +16,28 @@ export const Footer = () =>{
         <div className="container-lg">
           <div>
             <div className="row g-4 border-bottom1 pt-5 pb-4">
-              <div className="col-lg-3">
+              <div className="col-lg-2">
                 <Link className='Link' to='/'>
                   <img src={logo} width='100px' alt="" />
                 
                 </Link>
               </div>
 
-              <div className="col-lg-9">
+              <div className="col-lg-10 d-flex">
                 <div className='footer-d-flex'>
-                  <div className="d-flex pe-5 pb-3">
+                  <div className="d-flex pe-4 pb-3">
                     <FontAwesomeIcon className='site-primary-text md-text me-3' icon={faPhoneVolume}/>
-                    <p className="light-text">+1 (983) 458-3459</p>
+                    <p className="light-text">+234 (912 516 1750)</p>
                   </div>
 
-                  <div className="d-flex pe-5 pb-3">
+                  <div className="d-flex pe-4 pb-3">
                     <FontAwesomeIcon className='site-primary-text md-text me-3' icon={faEnvelope}/>
-                    <p className="light-text">support@AmanilightEquity.com</p>
+                    <p className="light-text">support@springfieldmentalhealthservices.com</p>
                   </div>
 
-                  <div className="d-flex pe-5 pb-3">
+                  <div className="d-flex pb-3">
                     <FontAwesomeIcon className='site-primary-text md-text me-3' icon={faLocation}/>
-                    <p className="light-text">27 Division St, 1100. E Denver, CO 80237, USA</p>
+                    <p className="light-text">33 Okapemen street off shatan market, GRA, Benin city</p>
                   </div>
 
                 </div>

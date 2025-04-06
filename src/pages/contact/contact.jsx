@@ -46,15 +46,15 @@ export const Contact = () =>{
 
     emailjs
       .send(
-        "service_7457fxr",  // Replace with your EmailJS Service ID
-        "template_w4ev6q2", // Replace with your EmailJS Template ID
+        "service_3pffh7e",  // Replace with your EmailJS Service ID
+        "template_32aslq8", // Replace with your EmailJS Template ID
         {  
           user_name: name,        // Match template variables
           user_email: email,
           message: emailMessage,
           time: currentTime,
         },
-        "AQ-xd10VtIjfba0Yv"  // Replace with your EmailJS Public Key
+        "dMmhX1EjjLNWuFdrk"  // Replace with your EmailJS Public Key
       )
       .then(
         (result) => {
@@ -62,6 +62,9 @@ export const Contact = () =>{
           setSent(true);
           setDisablebutton(false)
           setLoader(false)
+          setName('')
+          setEmail('')
+          setEmailMessage('')
           toast.success("Email sent successfully!", {
             position: "top-right",
             autoClose: 3000,

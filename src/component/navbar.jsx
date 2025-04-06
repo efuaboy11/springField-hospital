@@ -817,12 +817,12 @@ export const Header = () =>{
 
             <div className="d-flex pe-5">
               <i class="ri-mail-line"></i>
-              <p className="ps-3">iseghohimhene@gmail.com</p>
+              <p className="ps-3">support@springfieldmentalhealthservices.com</p>
             </div>
 
             <div className="d-flex pe-5">
               <i class="ri-map-pin-line"></i>
-              <p className="ps-3">33 Okapemen street off shatan marKet, GRA Benin, city</p>
+              <p className="ps-3">33 Okapemen street off shatan market, GRA, Benin city</p>
             </div>
 
 
