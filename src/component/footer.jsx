@@ -12,7 +12,7 @@ export const Footer = () =>{
 
   return(
     <div>
-      <div className="footer-bg py-5">
+      <div className="footer-bg py-5 overflow-hidden">
         <div className="container-lg">
           <div>
             <div className="row g-4 border-bottom1 pt-5 pb-4">
