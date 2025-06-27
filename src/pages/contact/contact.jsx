@@ -149,7 +149,7 @@ export const Contact = () =>{
 
                   <div className="d-flex align-center pb-3">
                     <FontAwesomeIcon className="site-primary-text pe-2" icon={faEnvelope}/>
-                    <p className="light-text-2">support@amanilightequity.com</p>
+                    <p className="light-text-2">support@springfieldmentalhealthservices.com</p>
                   </div>
                 </div>
 
