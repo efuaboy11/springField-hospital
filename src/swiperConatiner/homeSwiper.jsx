@@ -45,6 +45,7 @@ export const HomeCoverCarousel = () => {
   };
 
   return (
+    
     <div>
       <div>
         <div className="home-cover-carousel-container">
